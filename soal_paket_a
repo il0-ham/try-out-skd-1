@@ -17,13 +17,13 @@
         "id": 2,
         "kategori": "TWK",
         "sub_kategori": "Nasionalisme",
-        "soal": "Perasaan kebangsaan atau cinta terhadap bangsanya yang sangat tinggi dan berlebihan, sebaliknya memandang rendah terhadap bangsa lain, merupakan definisi dari...",
+        "soal": "Pengertian nasionalisme dalam arti sempit adalah...",
         "pilihan": {
-            "A": "Patriotisme",
-            "B": "Sovereinitas",
-            "C": "Humanisme",
-            "D": "Chauvinisme",
-            "E": "Nasionalisme"
+            "A": "Rasa cinta terhdap negeri",
+            "B": "Perilaku yang tidak menghargai sesama",
+            "C": "Perasaan keberagamana yang sama",
+            "D": "Perasaan kebangsaan yang sangat tinggi",
+            "E": "Perilaku menjaga harga  diri bangsa"
         },
         "jawaban_benar": "D"
     },
@@ -73,13 +73,13 @@
         "id": 6,
         "kategori": "TWK",
         "sub_kategori": "Nasionalisme",
-        "soal": "Bentuk nasionalisme di mana negara memperoleh kebenaran politik dari penyertaan aktif rakyatnya atau kehendak rakyat (sipil) disebut sebagai...",
+        "soal": "Bentuk nasionalisme salah satunya adalah nasionalisme kewarganegaraan yang subjeknya adalah...",
         "pilihan": {
-            "A": "Nasionalisme etnis",
-            "B": "Nasionalisme kewarganegaraan",
-            "C": "Nasionalisme kultural",
-            "D": "Nasionalisme kenegaraan",
-            "E": "Nasionalisme identitas"
+            "A": "Pemerintah",
+            "B": "Rakyat (sipil)",
+            "C": "Aparatur negara",
+            "D": "Lembaga negara",
+            "E": "Pendidikan"
         },
         "jawaban_benar": "B"
     },
@@ -87,29 +87,29 @@
         "id": 7,
         "kategori": "TWK",
         "sub_kategori": "Integritas",
-        "soal": "Integritas sering kali dibedakan dengan kredibilitas. Perbedaan mendasar di antara keduanya adalah bahwa integritas berkaitan dengan...",
+        "soal": "Integritas selalu berkaitan dengan kredibilitas. Kredibilitas menyangkut tentang keterampilan atau kemampuan, sedangkan integritas berkaitan dengan ....",
         "pilihan": {
-            "A": "Kapabilitas dan kompetensi teknis seseorang",
-            "B": "Tingkat pendidikan dan keahlian profesi",
-            "C": "Watak, moralitas, karakter, dan konsistensi perilaku",
-            "D": "Pengakuan publik atas prestasi kerja",
-            "E": "Keluasan jaringan dan hubungan sosial"
+            "A": "Kepribadian",
+            "B": "Hati",
+            "C": "Perilaku",
+            "D": "Skills",
+            "E": "Pengetahuan"
         },
-        "jawaban_benar": "C"
+        "jawaban_benar": "B"
     },
     {
         "id": 8,
         "kategori": "TWK",
         "sub_kategori": "Integritas",
-        "soal": "Etika penegakan hukum yang berkeadilan dimaksudkan untuk menumbuhkan kesadaran bahwa tertib sosial, kepastian hukum, dan keadilan dapat dicapai melalui...",
+        "soal": "Maksud dari etika penegakan hukum berkeadilan adalah...",
         "pilihan": {
-            "A": "Pemberian sanksi yang seberat-beratnya tanpa pandang bulu",
-            "B": "Peningkatan jumlah aparat penegak hukum di lapangan",
-            "C": "Persamaan di muka hukum (equality before the law) bagi setiap warga negara",
-            "D": "Pemisahan kekuasaan eksekutif dan yudikatif secara mutlak",
-            "E": "Pembuatan regulasi baru yang lebih ketat"
+            "A": "Menumbuhkan tertib sosial, ketenangan, dan peraturan hidup bersama",
+            "B": "Meningkatkan kesadaran hukum bagi sesama tanpa pandang bulu",
+            "C": "Persamaan di muka hukum (equality before the law)",
+            "D": "Kepastian hukum bagi seluruh warga negara",
+            "E": "Bersumber pada Pancasila demi tercipta keadilan sosial"
         },
-        "jawaban_benar": "C"
+        "jawaban_benar": "A"
     },
     {
         "id": 9,
@@ -131,11 +131,11 @@
         "sub_kategori": "Integritas",
         "soal": "Konsep integritas nasional yang dirumuskan oleh Komisi Pemberantasan Korupsi (KPK) secara komprehensif terdiri atas...",
         "pilihan": {
-            "A": "5 nilai dasar bernegara",
-            "B": "7 prinsip moralitas birokrasi",
-            "C": "9 nilai antikorupsi",
-            "D": "11 kode etik pegawai negeri",
-            "E": "12 butir pengamalan Pancasila"
+            "A": "5 nilai",
+            "B": "7 nilai",
+            "C": "9 nilai",
+            "D": "11 nilai",
+            "E": "13 nilai"
         },
         "jawaban_benar": "C"
     },
@@ -143,13 +143,13 @@
         "id": 11,
         "kategori": "TWK",
         "sub_kategori": "Integritas",
-        "soal": "Nilai-nilai integritas seperti kejujuran, toleransi, dan kepedulian merupakan nilai-nilai dasar yang hidup, tumbuh, dan berkembang di dalam...",
+        "soal": "Nilai Kejujuran, toleransi, dan kepedulian merupakan nilai yang terkandung dalam masyarakat yang ditinjau dari sisi...",
         "pilihan": {
-            "A": "Lingkungan sosial budaya masyarakat Indonesia",
-            "B": "Naskah otentik konstitusi negara",
-            "C": "Sistem hukum pidana internasional",
-            "D": "Kurikulum pendidikan formal barat",
-            "E": "Peraturan kedinasan lembaga penegak hukum"
+            "A": "Sosial budaya",
+            "B": "Kemanusiaan",
+            "C": "Agama",
+            "D": "Adat istiadat",
+            "E": "Pesonal"
         },
         "jawaban_benar": "A"
     },
@@ -157,13 +157,13 @@
         "id": 12,
         "kategori": "TWK",
         "sub_kategori": "Integritas",
-        "soal": "Di bawah ini yang merupakan lembaga resmi milik pemerintah yang bertugas secara independen dalam pencegahan dan pemberantasan korupsi di Indonesia adalah...",
+        "soal": "Berikut ini yang termasuk lembaga antikorupsi nonpemerintah, kecuali...",
         "pilihan": {
             "A": "Indonesia Corruption Watch (ICW)",
             "B": "Kontras",
             "C": "Imparsial",
-            "D": "Komisi Pemberantasan Korupsi (KPK)",
-            "E": "Komisi Perlindungan Anak Indonesia (KPAI)"
+            "D": "KPK",
+            "E": "KPAI"
         },
         "jawaban_benar": "D"
     },
@@ -227,13 +227,13 @@
         "id": 17,
         "kategori": "TWK",
         "sub_kategori": "Bela Negara",
-        "soal": "Hakikat pertahanan negara adalah segala upaya pertahanan bersifat semesta yang penyelenggaraannya didasarkan pada kesadaran atas hak dan kewajiban warga negara serta...",
+        "soal": "Hakikat penyelenggaraan pertahanan negara didasarkan pada...",
         "pilihan": {
-            "A": "Keyakinan pada kekuatan sendiri",
-            "B": "Bantuan militer dari negara-negara sekutu",
-            "C": "Ketersediaan anggaran pertahanan yang melimpah",
-            "D": "Keunggulan teknologi digital militer",
-            "E": "Perjanjian perdamaian internasional"
+            "A": "Kesadaran atas hak dan kewajiban warga negara",
+            "B": "Kemampuan rakyat perlu pelatihan khusus",
+            "C": "Pelaksanaan UUD 1945 sebagai kewajiban dasar warga negara",
+            "D": "Ideologi Pancasila yang menjadi sumber kekuatan bangsa",
+            "E": "Kemampuan aparatur negara (militer) dan sumber daya nasioanl"
         },
         "jawaban_benar": "A"
     },
@@ -269,13 +269,13 @@
         "id": 20,
         "kategori": "TWK",
         "sub_kategori": "Pilar Negara",
-        "soal": "Nilai-nilai Pancasila yang terjabarkan ke dalam peraturan perundang-undangan seperti Undang-Undang, Peraturan Pemerintah, dan Peraturan Presiden dinamakan sebagai...",
+        "soal": "Salah satu bentuk nilai instrumental dari Pancasila sebagai dasar negara adalah...",
         "pilihan": {
-            "A": "Nilai Dasar",
-            "B": "Nilai Instrumental",
-            "C": "Nilai Praksis",
-            "D": "Nilai Vital",
-            "E": "Nilai Kerohanian"
+            "A": "Sistem sosial masyarakat",
+            "B": "Peraturan perundang-undangan",
+            "C": "Sikap dan perilaku masyarakat",
+            "D": "Pandangan hidup bangsa",
+            "E": "Adanya adat istiadat daerah"
         },
         "jawaban_benar": "B"
     },
@@ -283,12 +283,12 @@
         "id": 21,
         "kategori": "TWK",
         "sub_kategori": "Pilar Negara",
-        "soal": "Dasar negara Pancasila secara yuridis-konstitusional tercantum secara sah dan otentik di dalam naskah nasional pada...",
+        "soal": "NKRI merupakan negara yang berlandaskan Pancasila. Hal ini merupakan simpulan dari...",
         "pilihan": {
-            "A": "Batang Tubuh UUD 1945",
+            "A": "Supersemar",
             "B": "Piagam Jakarta 22 Juni 1945",
-            "C": "Penjelasan UUD 1945",
-            "D": "Dekrit Presiden 5 Juli 1959",
+            "C": "Pembukaan UUD 1945 alinea ke-1",
+            "D": "Pembukaan UUD 1945 alinea ke-2",
             "E": "Pembukaan UUD 1945 alinea ke-4"
         },
         "jawaban_benar": "E"
@@ -311,27 +311,27 @@
         "id": 23,
         "kategori": "TWK",
         "sub_kategori": "Pilar Negara",
-        "soal": "Keseimbangan yang proporsional antara pemenuhan hak asasi dan pelaksanaan kewajiban asasi setiap warga negara ditujukan demi terciptanya...",
+        "soal": "Keseimbangan antara hak dan kewajiban dijamin dalam dasar negara dan UUD 1945. Keseimbangan tersebut memiliki arti...",
         "pilihan": {
-            "A": "Kebebasan individu yang mutlak tanpa batas",
-            "B": "Kekuasaan pemerintah yang otoriter dan kuat",
-            "C": "Keuntungan finansial bagi kelompok mayoritas",
-            "D": "Dominasi lembaga eksekutif atas legislatif",
-            "E": "Kehidupan bermasyarakat yang harmonis, tenteram, dan tertib"
+            "A": "Untuk mengatur batashak asasi manusia",
+            "B": "Mengatur kepentingan bersama",
+            "C": "Sesuai dengan ketentuan",
+            "D": "Pedoman harkat dan martabat manusia",
+            "E": "Keberlangsungan kehidupan harmonis"
         },
-        "jawaban_benar": "E"
+        "jawaban_benar": "D"
     },
     {
         "id": 24,
         "kategori": "TWK",
         "sub_kategori": "Pilar Negara",
-        "soal": "Polemik gagasan 'Empat Pilar Kebangsaan' sempat menuai kritik dari para pakar hukum tata negara karena dianggap salah kaprah dalam memosisikan kedudukan Pancasila. Letak kekeliruan tersebut adalah...",
+        "soal": "Polemik empat pilar kebangsaan yang digagas Taufik Kiemas mengalami problematika terhadap kedudukan...",
         "pilihan": {
-            "A": "Memosisikan Pancasila sejajar dengan pilar lainnya, padahal kedudukan Pancasila adalah sebagai dasar negara (fondasi)",
-            "B": "Menghapus eksistensi UUD 1945 sebagai hukum tertinggi",
-            "C": "Mengutamakan Bhinneka Tunggal Ika dibanding NKRI",
-            "D": "Mengubah bentuk negara kesatuan menjadi federal",
-            "E": "Menjadikan Pancasila sebagai ideologi tertutup"
+            "A": "Pancasila",
+            "B": "UUD 1945",
+            "C": "NKRI",
+            "D": "Bhinneka Tunggal Ika",
+            "E": "Sistem Peradilan Nasional"
         },
         "jawaban_benar": "A"
     },
@@ -339,27 +339,27 @@
         "id": 25,
         "kategori": "TWK",
         "sub_kategori": "Pilar Negara",
-        "soal": "Syarat-syarat ilmiah dalam melakukan kajian terhadap Pancasila meliputi hal-hal di bawah ini, kecuali...",
+        "soal": "Mengkaji Pancasila secara ilmiah dapat dilakukan pada aspek, kecuali...",
         "pilihan": {
-            "A": "Memiliki objek",
-            "B": "Memiliki metode",
-            "C": "Bersistem",
-            "D": "Bersifat universal/empiris",
-            "E": "Memiliki subjek tunggal"
+            "A": "Metode",
+            "B": "Sistem",
+            "C": "Empiris",
+            "D": "Objek",
+            "E": "Subjek"
         },
-        "jawaban_benar": "E"
+        "jawaban_benar": "A"
     },
     {
         "id": 26,
         "kategori": "TWK",
         "sub_kategori": "Pilar Negara",
-        "soal": "Intisari atau kristalisasi dari nilai-nilai Pancasila yang sudah mengakar lama dan menjadi ciri khas utama kehidupan bermasyarakat di seluruh pelosok nusantara secara historis adalah...",
+        "soal": "Secara historis, nilai-nilai Pancasila sudah mengakar danendemik pada seluruh laposan masyarakat Indonesia. Nilai tersebut adalah ...",
         "pilihan": {
-            "A": "Individualisme",
-            "B": "Liberalisme",
+            "A": "Kebersamaan",
+            "B": "Kekeluargaan",
             "C": "Gotong royong",
-            "D": "Chauvinisme",
-            "E": "Feodalisme"
+            "D": "Saling percaya",
+            "E": "Religius"
         },
         "jawaban_benar": "C"
     },
@@ -367,15 +367,15 @@
         "id": 27,
         "kategori": "TWK",
         "sub_kategori": "Nasionalisme",
-        "soal": "Memupuk rasa nasionalisme di tengah keberagaman suku, ras, adat, dan agama di Indonesia sangat penting dilakukan dengan tujuan utama agar...",
+        "soal": "Memupuk rasa nasionalisme kebangsaan bagi masyarakat indonesia berdasarkan keberagaman suku, agama, ras dan antargolongan agar ....",
         "pilihan": {
-            "A": "Seluruh budaya daerah dapat diseragamkan",
-            "B": "Anggaran pendapatan daerah meningkat tajam",
-            "C": "Suku mayoritas dapat mendominasi pemerintahan",
-            "D": "Jati diri dan identitas nasional bangsa tetap terjaga serta terhindar dari perpecahan",
-            "E": "Indonesia diakui sebagai negara militer terkuat"
+            "A": "Bangsa Indonesia mandiri",
+            "B": "Moralitas bangsa terjaga",
+            "C": "Tercipta kedaulatan bangsa",
+            "D": "Identitas nasional terjaga",
+            "E": "Tidak kehilangan kepribadian bangsa"
         },
-        "jawaban_benar": "D"
+        "jawaban_benar": "E"
     },
     {
         "id": 28,
@@ -395,13 +395,13 @@
         "id": 29,
         "kategori": "TWK",
         "sub_kategori": "Integritas",
-        "soal": "Definisi integritas menurut kamus kompetensi perilaku Komisi Pemberantasan Korupsi (KPK) adalah bertindak secara konsisten berupa...",
+        "soal": "Integritas berdasarkan kompetensi KPK memiliki pengertian bahwa...",
         "pilihan": {
-            "A": "Kesesuaian antara perkataan dan perbuatan yang sejalan dengan nilai, norma, atau kode etik",
-            "B": "Kepatuhan mutlak pada semua perintah atasan tanpa kecuali",
-            "C": "Kemampuan menyembunyikan kekurangan instansi dari publik",
-            "D": "Kecepatan menyelesaikan tugas administratif sebelum tenggat waktu",
-            "E": "Keberhasilan mengumpulkan dana bantuan eksternal"
+            "A": "Bertindak sesuai perkataan dan tindakan sesuai dengan nilai secara konsisten",
+            "B": "Mutu,sifat, dan keadaan yang digambarkan secara utuh yang memancarkan kewibawaan",
+            "C": "Patuh pada kode etik dalam perkataan dan perbuatan",
+            "D": "Berkeprobadian utuh yang merujuk pada nilai moral dan etika",
+            "E": "Kepribadian yang membawa marwah bangsa dan negara sebagai identitas nasioanal"
         },
         "jawaban_benar": "A"
     },
@@ -409,13 +409,13 @@
         "id": 30,
         "kategori": "TWK",
         "sub_kategori": "Integritas",
-        "soal": "Sembilan nilai antikorupsi yang dirumuskan oleh KPK dikelompokkan ke dalam 3 aspek utama. Nilai 'Jujur, Disiplin, dan Tanggung Jawab' masuk ke dalam kategori...",
+        "soal": "Ada Sembilan nilai integritas dalam antikorupsi yang terbagi dalam 3 aspek, yaitu.... ",
         "pilihan": {
-            "A": "Aspek Inti",
-            "B": "Aspek Sikap",
-            "C": "Aspek Etos Kerja",
-            "D": "Aspek Nilai Instrumental",
-            "E": "Aspek Perilaku Sosial"
+            "A": "Inti, sikap, dan etos kerja",
+            "B": "Personal, perilaku, dan norma",
+            "C": "kepribadian, agama, dan etos kerja",
+            "D": "Milai monorma dan kepribadian",
+            "E": "Inti, personal, dan sikap"
         },
         "jawaban_benar": "A"
     },
@@ -425,13 +425,13 @@
         "sub_kategori": "Analogi",
         "soal": "BAJAU : MEMUKUL = ... : ...",
         "pilihan": {
-            "A": "Sipir : Penjara",
+            "A": "provokasi : Gangguan",
             "B": "Marka : Garis",
             "C": "Genta : Lonceng",
             "D": "Resital : Konser",
             "E": "Rabat : Potongan"
         },
-        "jawaban_benar": "B"
+        "jawaban_benar": "A"
     },
     {
         "id": 32,
@@ -521,15 +521,15 @@
         "id": 38,
         "kategori": "TIU",
         "sub_kategori": "Silogisme",
-        "soal": "Premis 1: Jika Upik rajin belajar, maka ia naik kelas.\nPremis 2: Jika Upik tidak mendapat hadiah, maka ia tidak naik kelas.\nPremis 3: Upik rajin belajar.\n\nKesimpulan yang sah adalah...",
+        "soal": "Premis 1: Jika Upik rajin belajar, maka naik kelas.\nPremis 2: Jika Upik tidak dapat hadiah, maka tidak naik kelas.\nPremis 3: Upik rajin belajar.\n\nKesimpulan yang sah adalah...",
         "pilihan": {
-            "A": "Upik rajin belajar tetapi tidak naik kelas.",
-            "B": "Upik naik kelas tetapi tidak mendapat hadiah.",
-            "C": "Upik tidak naik kelas dan tidak mendapat hadiah.",
+            "A": "Upik naik kelas.",
+            "B": "Upik dapat hadiah.",
+            "C": "Upik tidak dapat hadiah.",
             "D": "Upik naik kelas dan mendapat hadiah.",
-            "E": "Upik mendapat hadiah karena tidak naik kelas."
+            "E": "Upik ndapat hadiah atau naik kelas."
         },
-        "jawaban_benar": "D"
+        "jawaban_benar": "B"
     },
     {
         "id": 39,
@@ -577,7 +577,7 @@
         "id": 42,
         "kategori": "TIU",
         "sub_kategori": "Analitis",
-        "soal": "Hasil survei preferensi pemirsa televisi menunjukkan:\n- Tingkat kesukaan: Sinetron > Animasi > Musik > Berita > Film.\n- Tingkat mendidik: Berita > Musik > Animasi > Sinetron > Film.\n\nJika sebuah stasiun TV menjadikan 'Sinetron' sebagai program unggulan utama, kesimpulan yang paling tepat mengenai program tersebut bagi pemirsa adalah...",
+        "soal": "Hasil survei dari lima acara televisi, yakni sinetron, musik, animasi, berita, dan film terhadap penduduk suatu kota adalah sebagai berikut:\n1. Acara musik lebih disukai daripada berita, tetapi musik kurang mendidik dibandingkan berita.\n2. Acara sinetron lebih disukai daripada animasi,tetapi sinetron kurang mendidik dibandingkan animasi.\n3. Acara animasi lebih disukai daripada musik, tetapi animasi kurang mendidik dibandingkan musik. \n4. Acara berita lebih disukai daripada film, tetapi film kurang mendidik dibandingkan berita.\n\nJika acara sinetron dijadikan acara unggulan televisi maka pemirsa akan menonton acara yang paling...",
         "pilihan": {
             "A": "Paling mendidik walaupun kurang disukai.",
             "B": "Paling mendidik dan paling disukai.",
@@ -593,11 +593,11 @@
         "sub_kategori": "Berhitung",
         "soal": "Berapakah hasil dari 51% × 576% × (22/576) ?",
         "pilihan": {
-            "A": "0,01122",
+            "A": "0,0221",
             "B": "0,1122",
-            "C": "1,122",
-            "D": "11,22",
-            "E": "112,2"
+            "C": "1,2452",
+            "D": "4,2248",
+            "E": "145,162"
         },
         "jawaban_benar": "B"
     },
@@ -619,13 +619,13 @@
         "id": 45,
         "kategori": "TIU",
         "sub_kategori": "Berhitung",
-        "soal": "Hasil dari 37,5% × 0,333 adalah mendekati...",
+        "soal": "Nilai dari 37,5% × 0,333 adalah...",
         "pilihan": {
             "A": "0,0125",
             "B": "0,0375",
-            "C": "0,1111",
-            "D": "0,1250",
-            "E": "0,3750"
+            "C": "0,1",
+            "D": "0,125",
+            "E": "0,375"
         },
         "jawaban_benar": "D"
     },
@@ -649,11 +649,11 @@
         "sub_kategori": "Deret Angka",
         "soal": "1, 2, 3, 6, 7, 8, ..., 17, 18, 36, 37, ...\n\nAngka yang tepat untuk mengisi titik-titik pada deret di atas secara berurutan adalah...",
         "pilihan": {
-            "A": "9 dan 38",
-            "B": "14 dan 37",
+            "A": "11 dan 38",
+            "B": "16 dan 39",
             "C": "16 dan 38",
-            "D": "16 dan 39",
-            "E": "12 dan 38"
+            "D": "16 dan 36",
+            "E": "11 dan 36"
         },
         "jawaban_benar": "C"
     },
@@ -663,11 +663,11 @@
         "sub_kategori": "Deret Angka",
         "soal": "7, 12, 14, 16, 28, ..., ..., 24, 112, 28\n\nIsian yang tepat untuk mengisi posisi rumpang berturut-turut adalah...",
         "pilihan": {
-            "A": "18 dan 42",
+            "A": "20 dan 48",
             "B": "20 dan 56",
-            "C": "22 dan 54",
-            "D": "24 dan 56",
-            "E": "20 dan 60"
+            "C": "24 dan 48",
+            "D": "32 dan 48",
+            "E": "24 dan 56"
         },
         "jawaban_benar": "B"
     },
@@ -677,13 +677,13 @@
         "sub_kategori": "Deret Angka",
         "soal": "2, 9, 6, 12, ..., 18, 20, 27, 30, ...\n\nPasangan angka yang melengkapi deret di atas adalah...",
         "pilihan": {
-            "A": "10 dan 33",
-            "B": "14 dan 35",
+            "A": "11 dan 36",
+            "B": "12 dan 39",
             "C": "15 dan 36",
-            "D": "16 dan 36",
-            "E": "15 dan 32"
+            "D": "15 dan 39",
+            "E": "12 dan 36"
         },
-        "jawaban_benar": "C"
+        "jawaban_benar": "B"
     },
     {
         "id": 50,
@@ -697,7 +697,7 @@
             "D": "x = 2y",
             "E": "Hubungan tidak dapat ditentukan"
         },
-        "jawaban_benar": "B"
+        "jawaban_benar": "E"
     },
     {
         "id": 51,
@@ -711,7 +711,7 @@
             "D": "x + y = 0",
             "E": "Hubungan tidak dapat didefinisikan"
         },
-        "jawaban_benar": "A"
+        "jawaban_benar": "B"
     },
     {
         "id": 52,
@@ -815,41 +815,42 @@
         "id": 59,
         "kategori": "TIU",
         "sub_kategori": "Figural",
-        "soal": "Amati pola perubahan bentuk gambar komponen figural yang tersedia, lalu tentukan gambar mana yang paling logis untuk mengisi kelanjutan deret gambar tersebut!",
+        "soal": "Carilah gambar yang berbeda.",
         "pilihan": {
-            "A": "Pilihan A",
-            "B": "Pilihan B",
-            "C": "Pilihan C",
-            "D": "Pilihan D",
-            "E": "Pilihan E"
+            "A": "soal_no_59_a_paket_A",
+            "B": "soal_no_59_b_paket_A",
+            "C": "soal_no_59_c_paket_A",
+            "D": "soal_no_59_d_paket_A",
+            "E": "soal_no_59_e_paket_A"
         },
-        "jawaban_benar": "A"
+        "jawaban_benar": "E"
     },
     {
         "id": 60,
         "kategori": "TIU",
         "sub_kategori": "Figural",
-        "soal": "Berdasarkan pola rotasi, pencerminan, atau eliminasi elemen grafis dari gambar matrik yang ada, pilihlah satu opsi yang paling tepat sebagai pengganti tanda tanya.",
+        "soal": "Carilah gambar yang berbeda.",
         "pilihan": {
-            "A": "Pilihan A",
-            "B": "Pilihan B",
-            "C": "Pilihan C",
-            "D": "Pilihan D",
-            "E": "Pilihan E"
+            "A": "soal_no_60_a_paket_A",
+            "B": "soal_no_60_a_paket_A",
+            "C": "soal_no_60_a_paket_A",
+            "D": "soal_no_60_a_paket_A",
+            "E": "soal_no_60_a_paket_A"
         },
-        "jawaban_benar": "B"
+        "jawaban_benar": "D"
     },
     {
         "id": 61,
         "kategori": "TIU",
         "sub_kategori": "Figural",
-        "soal": "Perhatikan baik-baik kelompok gambar berikut. Di antara kelima pilihan objek gambar yang tersedia, manakah satu gambar yang memiliki karakteristik berbeda atau tidak sekelompok (Anomali)?",
+        "soal": "Carilah gambar selanjutnya pada seri gambar berikut ini.",
+        "gambar": "soal_no_61_paket_A",
         "pilihan": {
-            "A": "Pilihan A",
-            "B": "Pilihan B",
-            "C": "Pilihan C",
-            "D": "Pilihan D",
-            "E": "Pilihan E"
+            "A": "soal_no_61_a_paket_A",
+            "B": "soal_no_61_b_paket_A",
+            "C": "soal_no_61_c_paket_A",
+            "D": "soal_no_61_d_paket_A",
+            "E": "soal_no_61_e_paket_A"
         },
         "jawaban_benar": "C"
     },
@@ -857,13 +858,14 @@
         "id": 62,
         "kategori": "TIU",
         "sub_kategori": "Figural",
-        "soal": "Carilah hubungan analogi bentuk dari pasangan gambar pertama untuk diterapkan pada pasangan gambar kedua sehingga dapat mengisi bidang rumpang kosong dengan tepat.",
+        "soal": "Carilah gambar selanjutnya pada seri gambar berikut ini.",
+        "gambar": "soal_no_62_paket_A",
         "pilihan": {
-            "A": "Pilihan A",
-            "B": "Pilihan B",
-            "C": "Pilihan C",
-            "D": "Pilihan D",
-            "E": "Pilihan E"
+            "A": "soal_no_62_paket_A",
+            "B": "soal_no_62_paket_A",
+            "C": "soal_no_62_paket_A",
+            "D": "soal_no_62_paket_A",
+            "E": "soal_no_62_paket_A"
         },
         "jawaban_benar": "D"
     },
@@ -871,13 +873,14 @@
         "id": 63,
         "kategori": "TIU",
         "sub_kategori": "Figural",
-        "soal": "Jika jaring-jaring bangun tiga dimensi tersebut dilipat dan disusun membentuk sebuah kubus utuh, posisi visual permukaan kubus yang benar ditunjukkan oleh opsi...",
+        "soal": "Carilah gambar selanjutnya pada seri gambar berikut ini.",
+        "gambar": "soal_no_63_paket_A",
         "pilihan": {
-            "A": "Pilihan A",
-            "B": "Pilihan B",
-            "C": "Pilihan C",
-            "D": "Pilihan D",
-            "E": "Pilihan E"
+            "A": "soal_no_63_a_paket_A",
+            "B": "soal_no_63_b_paket_A",
+            "C": "soal_no_63_c_paket_A",
+            "D": "soal_no_63_d_paket_A",
+            "E": "soal_no_63_e_paket_A"
         },
         "jawaban_benar": "E"
     },
@@ -885,27 +888,29 @@
         "id": 64,
         "kategori": "TIU",
         "sub_kategori": "Figural",
-        "soal": "Dari susunan pola serial spasial yang diberikan di lembar soal, tentukan gambar kelanjutan urutan logis berikutnya.",
+        "soal": "Carilah gambar yang tepat untuk mengisi posisi 4 menggunakan logika gambar 1 dan 2.",
+        "gambar": "soal_no_64_paket_A",
         "pilihan": {
-            "A": "Pilihan A",
-            "B": "Pilihan B",
-            "C": "Pilihan C",
-            "D": "Pilihan D",
-            "E": "Pilihan E"
+            "A": "soal_no_64_a_paket_A",
+            "B": "soal_no_64_b_paket_A",
+            "C": "soal_no_64_c_paket_A",
+            "D": "soal_no_64_d_paket_A",
+            "E": "soal_no_64_e_paket_A"
         },
-        "jawaban_benar": "A"
+        "jawaban_benar": "B"
     },
     {
         "id": 65,
         "kategori": "TIU",
         "sub_kategori": "Figural",
-        "soal": "Pilih satu bentuk gambar yang merupakan pencerminan sempurna (simetri lipat horizontal/vertikal) atau hasil rotasi geometris dari pola utama.",
+        "soal": "Carilah gambar yang tepat untuk mengisi posisi 4 menggunakan logika gambar 1 dan 2.",
+        "gambar": "soal_no_65_paket_A",
         "pilihan": {
-            "A": "Pilihan A",
-            "B": "Pilihan B",
-            "C": "Pilihan C",
-            "D": "Pilihan D",
-            "E": "Pilihan E"
+            "A": "soal_no_65_a_paket_A",
+            "B": "soal_no_65_b_paket_A",
+            "C": "soal_no_65_c_paket_A",
+            "D": "soal_no_65_d_paket_A",
+            "E": "soal_no_65_e_paket_A"
         },
         "jawaban_benar": "B"
     },
