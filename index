@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi CAT CPNS - Platform Try Out SKD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        /* Scrollbar kustom untuk grid navigasi nomor */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col">
+
+    <div id="screen-login" class="flex-1 flex items-center justify-center p-4">
+        <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md border border-slate-100">
+            <div class="text-center mb-6">
+                <div class="inline-flex p-3 bg-blue-50 rounded-full text-blue-600 mb-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg>
+                </div>
+                <h1 class="text-2xl font-bold text-slate-900">Simulasi CAT SKD</h1>
+                <p class="text-slate-500 text-sm mt-1">Masukkan nama Anda untuk memulai simulasi</p>
+            </div>
+            <div class="space-y-4">
+                <div>
+                    <label class="block text-sm font-semibold text-slate-700 mb-1">Nama Lengkap</label>
+                    <input type="text" id="input-nama" placeholder="Contoh: Andi Wijaya" class="w-full px-4 py-2.5 rounded-xl border border-slate-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition">
+                </div>
+                <button onclick="masukDashboard()" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2.5 rounded-xl transition shadow-lg shadow-blue-600/20">Masuk ke Dashboard</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-dashboard" class="hidden flex-1 p-6 max-w-5xl mx-auto w-full">
+        <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 mb-6 flex justify-between items-center">
+            <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-1 rounded-full">Selamat Datang</span>
+                <h2 id="user-display-name" class="text-xl font-bold text-slate-900 mt-1">Nama Peserta</h2>
+            </div>
+            <button onclick="KeluarLogin()" class="text-sm text-rose-600 hover:underline">Ganti Akun</button>
+        </div>
+
+        <h1 class="text-3xl font-bold text-slate-900 mb-2 text-center">Try Out SKD 1</h1>
+        <p class="text-slate-500 text-center mb-8">Pilih paket soal di bawah ini untuk memulai simulasi sistem CAT resmi</p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-2xl shadow-md border-2 border-blue-500 flex flex-col justify-between">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-1 rounded">Tersedia</span>
+                        <span class="text-slate-400 text-sm">110 Soal</span>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Paket A</h3>
+                    <p class="text-slate-500 text-sm mb-4">Berisi kombinasi soal TWK (30), TIU (35), dan TKP (45) lengkap dengan soal berbasis gambar (figural).</p>
+                </div>
+                <button onclick="mulaiUjian('paket_a')" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 rounded-xl transition shadow-md">Mulai Ujian (100 Menit)</button>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 opacity-60 flex flex-col justify-between">
+                <div>
+                    <span class="bg-slate-100 text-slate-600 text-xs font-semibold px-2.5 py-1 rounded w-max block mb-4">Segera Hadir</span>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Paket B</h3>
+                    <p class="text-slate-500 text-sm mb-4">Soal simulasi gelombang kedua. Berkas database masih dalam tahap sinkronisasi data.</p>
+                </div>
+                <button disabled class="w-full bg-slate-200 text-slate-400 font-medium py-2 rounded-xl cursor-not-allowed">Terkunci</button>
+            </div>
+
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 opacity-60 flex flex-col justify-between">
+                <div>
+                    <span class="bg-slate-100 text-slate-600 text-xs font-semibold px-2.5 py-1 rounded w-max block mb-4">Segera Hadir</span>
+                    <h3 class="text-xl font-bold text-slate-900 mb-2">Paket C</h3>
+                    <p class="text-slate-500 text-sm mb-4">Paket pengayaan dengan tingkat kesulitan penalaran tinggi (HOTS).</p>
+                </div>
+                <button disabled class="w-full bg-slate-200 text-slate-400 font-medium py-2 rounded-xl cursor-not-allowed">Terkunci</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-ujian" class="hidden flex-1 flex flex-col lg:flex-row gap-6 p-6 max-w-[1400px] mx-auto w-full">
+        <div class="flex-1 bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between">
+            <div>
+                <div class="flex justify-between items-center border-b border-slate-100 pb-4 mb-4">
+                    <div>
+                        <span id="soal-kategori" class="bg-slate-100 text-slate-700 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">KATEGORI</span>
+                        <span id="soal-sub-kategori" class="text-xs text-slate-400 ml-2">Sub materi</span>
+                    </div>
+                    <div class="flex items-center space-x-2 text-rose-600 font-bold bg-rose-50 px-3 py-1 rounded-xl">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        <span id="timer">100:00</span>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h2 class="font-bold text-slate-900 mb-2">Soal No. <span id="current-number-display">1</span></h2>
+                    <p id="teks-soal" class="text-slate-700 leading-relaxed text-justify">Memuat teks pertanyaan...</p>
+                </div>
+
+                <div id="wrapper-gambar-soal" class="hidden w-full mb-6 flex justify-center bg-slate-50 p-4 rounded-xl border border-dashed border-slate-300">
+                    <img id="gambar-soal" src="" alt="Visual Soal Figural" class="max-w-full h-auto max-h-[240px] md:max-h-[280px] object-contain rounded-lg shadow-sm">
+                </div>
+
+                <div id="container-opsi" class="space-y-3">
+                    </div>
+            </div>
+
+            <div class="flex justify-between items-center border-t border-slate-100 pt-4 mt-8">
+                <button onclick="navigasiSoal(-1)" id="btn-prev" class="px-5 py-2 bg-slate-100 hover:bg-slate-200 font-medium rounded-xl transition text-slate-700">Sebelumnya</button>
+                <button onclick="raguRaguToggle()" id="btn-ragu" class="px-5 py-2 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-xl transition shadow-sm">Ragu-Ragu</button>
+                <button onclick="navigasiSoal(1)" id="btn-next" class="px-5 py-2 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-xl transition shadow-sm">Selanjutnya</button>
+            </div>
+        </div>
+
+        <div class="w-full lg:w-[360px] bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col justify-between">
+            <div>
+                <h3 class="font-bold text-slate-900 mb-4 border-b pb-2 flex justify-between items-center">
+                    <span>Nomor Navigasi</span>
+                    <span class="text-xs text-slate-400 font-normal">Total: 110 Soal</span>
+                </h3>
+                <div id="grid-navigasi" class="grid grid-cols-5 gap-2 max-h-[380px] overflow-y-auto pr-1">
+                    </div>
+            </div>
+
+            <div class="mt-6 pt-4 border-t border-slate-100">
+                <button onclick="konfirmasiSelesai()" class="w-full bg-rose-600 hover:bg-rose-700 text-white font-bold py-3 rounded-xl transition shadow-lg shadow-rose-600/20">Selesai Ujian</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="screen-hasil" class="hidden flex-1 p-6 max-w-4xl mx-auto w-full">
+        <div class="bg-white p-8 rounded-2xl shadow-md border border-slate-100 text-center mb-8">
+            <h1 class="text-3xl font-bold text-slate-900 mb-2">Hasil Evaluasi SKD</h1>
+            <p class="text-slate-500 mb-6">Nilai Anda telah otomatis diarsipkan ke sistem database cloud spreadsheet</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                    <span class="text-xs text-slate-400 font-medium">Skor TWK</span>
+                    <p id="score-twk" class="text-2xl font-bold text-slate-800">0</p>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                    <span class="text-xs text-slate-400 font-medium">Skor TIU</span>
+                    <p id="score-tiu" class="text-2xl font-bold text-slate-800">0</p>
+                </div>
+                <div class="bg-slate-50 p-4 rounded-xl border border-slate-100">
+                    <span class="text-xs text-slate-400 font-medium">Skor TKP</span>
+                    <p id="score-tkp" class="text-2xl font-bold text-slate-800">0</p>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-xl border border-blue-100">
+                    <span class="text-xs text-blue-600 font-bold">TOTAL SKD</span>
+                    <p id="score-total" class="text-2xl font-bold text-blue-700">0</p>
+                </div>
+            </div>
+            <button onclick="location.reload()" class="bg-slate-900 hover:bg-slate-800 text-white font-medium px-6 py-2.5 rounded-xl transition shadow-sm">Kembali ke Beranda</button>
+        </div>
+
+        <h2 class="text-2xl font-bold text-slate-900 mb-4">Review Lembar Jawaban</h2>
+        <div id="container-review" class="space-y-4">
+            </div>
+    </div>
+
+    <script>
+        // URL Google Apps Script milik pengguna (Sudah terhubung langsung)
+        const URL_SPREADSHEET_API = "https://script.google.com/macros/s/AKfycbwg25CofqZllyV-6MMcbDNdhkU_z43tsnZ1h2udyfMJQ1WoSow-q8XtJNZFVXPWBo9QFg/exec"; 
+
+        let namaPeserta = "";
+        let paketTerpilih = "";
+        let listSoal = [];
+        let indexAktif = 0;
+        let jawabanUser = {}; 
+        let statusRagu = {};   
+        let sisaWaktu = 100 * 60; // 100 Menit standar CAT BKN
+        let hitunganMundur;
+
+        function masukDashboard() {
+            const input = document.getElementById('input-nama').value.trim();
+            if(!input) return alert("Silakan masukkan nama lengkap Anda terlebih dahulu.");
+            namaPeserta = input;
+            document.getElementById('user-display-name').innerText = namaPeserta;
+            document.getElementById('screen-login').classList.add('hidden');
+            document.getElementById('screen-dashboard').classList.remove('hidden');
+        }
+
+        function KeluarLogin() {
+            document.getElementById('screen-dashboard').classList.add('hidden');
+            document.getElementById('screen-login').classList.remove('hidden');
+        }
+
+        async function mulaiUjian(paket) {
+            paketTerpilih = paket;
+            try {
+                // Memanggil file JSON lokal berdasarkan nama paket
+                const response = await fetch(`soal_${paket}.json`);
+                if(!response.ok) throw new Error("Gagal memuat berkas JSON.");
+                listSoal = await response.json();
+                
+                document.getElementById('screen-dashboard').classList.add('hidden');
+                document.getElementById('screen-ujian').classList.remove('hidden');
+                
+                initNavigasiGrid();
+                renderSoal();
+                mulaiTimer();
+            } catch (err) {
+                alert("Kesalahan Sistem: Berkas database 'soal_paket_a.json' tidak ditemukan di folder yang sama.");
+                console.error(err);
+            }
+        }
+
+        function mulaiTimer() {
+            hitunganMundur = setInterval(() => {
+                if(sisaWaktu <= 0) {
+                    clearInterval(hitunganMundur);
+                    alert("Waktu pengerjaan simulasi telah habis!");
+                    hitungDanKirimSkor();
+                } else {
+                    sisaWaktu--;
+                    let menit = Math.floor(sisaWaktu / 60);
+                    let detik = sisaWaktu % 60;
+                    document.getElementById('timer').innerText = `${menit.toString().padStart(2, '0')}:${detik.toString().padStart(2, '0')}`;
+                }
+            }, 1000);
+        }
+
+        function initNavigasiGrid() {
+            const container = document.getElementById('grid-navigasi');
+            container.innerHTML = "";
+            listSoal.forEach((soal, i) => {
+                const btn = document.createElement('button');
+                btn.id = `grid-no-${i}`;
+                btn.innerText = i + 1;
+                btn.className = "w-full py-2 text-sm font-semibold rounded-xl border border-slate-200 bg-white text-slate-700 shadow-sm transition text-center";
+                btn.onclick = () => { indexAktif = i; renderSoal(); };
+                container.appendChild(btn);
+            });
+        }
+
+        function updateNavigasiStatus() {
+            listSoal.forEach((soal, i) => {
+                const btn = document.getElementById(`grid-no-${i}`);
+                if (i === indexAktif) {
+                    btn.className = "w-full py-2 text-sm font-bold rounded-xl border-2 border-slate-900 bg-slate-100 text-slate-900 shadow-sm text-center";
+                } else if (statusRagu[i]) {
+                    btn.className = "w-full py-2 text-sm font-semibold rounded-xl bg-amber-500 text-white shadow-sm text-center";
+                } else if (jawabanUser[i] !== undefined) {
+                    btn.className = "w-full py-2 text-sm font-semibold rounded-xl bg-blue-600 text-white shadow-sm text-center";
+                } else {
+                    btn.className = "w-full py-2 text-sm font-semibold rounded-xl border border-slate-200 bg-white text-slate-700 text-center";
+                }
+            });
+        }
+
+        function renderSoal() {
+            const soal = listSoal[indexAktif];
+            document.getElementById('current-number-display').innerText = indexAktif + 1;
+            document.getElementById('soal-kategori').innerText = soal.kategori;
+            document.getElementById('soal-sub-kategori').innerText = soal.sub_kategori;
+            document.getElementById('teks-soal').innerText = soal.soal;
+
+            // --- PENGATURAN DETEKSI GAMBAR PADA PERTANYAAN ---
+            const wrapperGambar = document.getElementById('wrapper-gambar-soal');
+            const imgElemen = document.getElementById('gambar-soal');
+
+            if (soal.gambar && soal.gambar.trim() !== "") {
+                imgElemen.src = soal.gambar;
+                wrapperGambar.classList.remove('hidden');
+            } else {
+                imgElemen.src = "";
+                wrapperGambar.classList.add('hidden');
+            }
+
+            // --- PROSES RENDER OPSI JAWABAN (MENDUKUNG TEKS & GAMBAR) ---
+            const containerOpsi = document.getElementById('container-opsi');
+            containerOpsi.innerHTML = "";
+
+            Object.entries(soal.pilihan).forEach(([kunci, teks]) => {
+                const isSelected = jawabanUser[indexAktif] === kunci;
+                
+                // Cek ekstensi file gambar menggunakan Regex
+                const apakahGambarOpsi = /\.(jpg|jpeg|png|webp|gif)$/i.test(teks);
+                
+                let kontenOpsiHtml = "";
+                if (apakahGambarOpsi) {
+                    // Proteksi ukuran gambar di bagian opsi agar tidak terlalu besar dan tetap rapi
+                    kontenOpsiHtml = `<img src="${teks}" alt="Opsi ${kunci}" class="max-h-24 md:max-h-28 object-contain rounded-lg border border-slate-100 bg-white p-1.5 shadow-sm">`;
+                } else {
+                    kontenOpsiHtml = `<span class="text-sm flex-1">${teks}</span>`;
+                }
+
+                const div = document.createElement('div');
+                div.className = `flex items-center p-3.5 rounded-xl border transition cursor-pointer ${isSelected ? 'border-blue-500 bg-blue-50/50 text-blue-900 font-medium' : 'border-slate-200 hover:bg-slate-50 text-slate-700'}`;
+                div.onclick = () => { pilihJawaban(kunci); };
+
+                div.innerHTML = `
+                    <span class="w-7 h-7 flex items-center justify-center rounded-lg border text-sm font-bold mr-3 flex-shrink-0 ${isSelected ? 'bg-blue-600 border-blue-600 text-white' : 'bg-slate-100 border-slate-300 text-slate-600'}">${kunci}</span>
+                    ${kontenOpsiHtml}
+                `;
+                containerOpsi.appendChild(div);
+            });
+
+            document.getElementById('btn-prev').disabled = indexAktif === 0;
+            document.getElementById('btn-next').innerText = indexAktif === listSoal.length - 1 ? "Selesai" : "Selanjutnya";
+            
+            updateNavigasiStatus();
+        }
+
+        function pilihJawaban(kunci) {
+            jawabanUser[indexAktif] = kunci;
+            renderSoal();
+        }
+
+        function raguRaguToggle() {
+            statusRagu[indexAktif] = !statusRagu[indexAktif];
+            renderSoal();
+        }
+
+        function navigasiSoal(arah) {
+            if (arah === 1 && indexAktif === listSoal.length - 1) {
+                konfirmasiSelesai();
+                return;
+            }
+            indexAktif += arah;
+            renderSoal();
+        }
+
+        function konfirmasiSelesai() {
+            if(confirm("Apakah Anda yakin ingin mengakhiri sesi simulasi ini? Jawaban Anda akan langsung dikirim dan dievaluasi.")) {
+                clearInterval(hitunganMundur);
+                hitungDanKirimSkor();
+            }
+        }
+
+        function hitungDanKirimSkor() {
+            let twk = 0, tiu = 0, tkp = 0;
+
+            listSoal.forEach((soal, i) => {
+                const ans = jawabanUser[i];
+                if(soal.kategori === "TWK") {
+                    if(ans === soal.jawaban_benar) twk += 5;
+                } else if(soal.kategori === "TIU") {
+                    if(ans === soal.jawaban_benar) tiu += 5;
+                } else if(soal.kategori === "TKP") {
+                    if(ans && soal.poin && soal.poin[ans]) {
+                        tkp += parseInt(soal.poin[ans]);
+                    }
+                }
+            });
+
+            let totalSkor = twk + tiu + tkp;
+
+            // Render Nilai ke Screen Hasil (Screen 4)
+            document.getElementById('score-twk').innerText = twk;
+            document.getElementById('score-tiu').innerText = tiu;
+            document.getElementById('score-tkp').innerText = tkp;
+            document.getElementById('score-total').innerText = totalSkor;
+
+            document.getElementById('screen-ujian').classList.add('hidden');
+            document.getElementById('screen-hasil').classList.remove('hidden');
+
+            renderReviewJawaban();
+
+            // Pengiriman data AJAX menggunakan format JSON
+            const payload = {
+                nama: namaPeserta,
+                paket: paketTerpilih.toUpperCase(),
+                twk: twk,
+                tiu: tiu,
+                tkp: tkp,
+                total: totalSkor
+            };
+
+            fetch(URL_SPREADSHEET_API, {
+                method: "POST",
+                mode: "no-cors",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            }).then(() => console.log("Rekap data nilai berhasil dikirim ke Google Spreadsheet."))
+              .catch(err => console.error("Gagal terhubung dengan endpoint API Google Apps Script: ", err));
+        }
+
+        function renderReviewJawaban() {
+            const container = document.getElementById('container-review');
+            container.innerHTML = "";
+
+            listSoal.forEach((soal, i) => {
+                const ans = jawabanUser[i] || "Tidak Dijawab";
+                let isCorrect = false;
+                let keteranganPoin = "";
+
+                if(soal.kategori !== "TKP") {
+                    isCorrect = ans === soal.jawaban_benar;
+                    keteranganPoin = `Kunci Jawaban: ${soal.jawaban_benar}`;
+                } else {
+                    const p = (soal.poin && soal.poin[ans]) ? soal.poin[ans] : 0;
+                    isCorrect = p === 5; // TKP dinilai benar jika mendapat poin maksimal (+5)
+                    keteranganPoin = `Bobot Nilai Opsi Anda: +${p} Poin`;
+                }
+
+                // KONFIGURASI WARNA BARU: BENAR = BIRU (blue-50), SALAH = MERAH (rose-50)
+                const card = document.createElement('div');
+                card.className = `p-5 rounded-2xl border text-sm text-justify ${isCorrect ? 'bg-blue-50 border-blue-200 text-blue-900' : 'bg-rose-50 border-rose-200 text-rose-900'}`;
+                
+                // Tampilan review gambar pertanyaan jika ada
+                let htmlGambarReview = "";
+                if(soal.gambar && soal.gambar.trim() !== "") {
+                    htmlGambarReview = `
+                        <div class="my-3 bg-white p-2 rounded-xl border max-w-xs shadow-sm">
+                            <img src="${soal.gambar}" class="max-h-32 object-contain rounded">
+                        </div>
+                    `;
+                }
+
+                // Tampilan review gambar opsi jika ada
+                const apakahAnsGambar = /\.(jpg|jpeg|png|webp|gif)$/i.test(soal.pilihan[ans]);
+                let displayJawabanUser = ans;
+                if (apakahAnsGambar && soal.pilihan[ans]) {
+                    displayJawabanUser = `<img src="${soal.pilihan[ans]}" class="inline-block max-h-12 ml-2 object-contain border rounded-lg p-1 bg-white shadow-sm">`;
+                }
+
+                card.innerHTML = `
+                    <p class="font-bold mb-1 text-slate-900">Soal Nomor ${i + 1} (${soal.kategori})</p>
+                    <p class="text-slate-700">${soal.soal}</p>
+                    ${htmlGambarReview}
+                    <div class="flex flex-wrap items-center gap-4 text-xs font-semibold mt-3">
+                        <div class="px-2.5 py-1 rounded-lg bg-white border flex items-center text-slate-700">Pilihan Anda: ${ans} ${apakahAnsGambar ? displayJawabanUser : ''}</div>
+                        <span class="px-2.5 py-1 rounded-lg bg-white border text-slate-700">${keteranganPoin}</span>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+    </script>
+</body>
+</html>
