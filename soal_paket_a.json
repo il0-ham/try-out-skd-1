@@ -861,11 +861,11 @@
         "soal": "Carilah gambar selanjutnya pada seri gambar berikut ini.",
         "gambar": "soal_no_62_paket_A.png",
         "pilihan": {
-            "A": "soal_no_62_paket_A.png",
-            "B": "soal_no_62_paket_A.png",
-            "C": "soal_no_62_paket_A.png",
-            "D": "soal_no_62_paket_A.png",
-            "E": "soal_no_62_paket_A.png"
+            "A": "soal_no_62_a_paket_A.png",
+            "B": "soal_no_62_b_paket_A.png",
+            "C": "soal_no_62_c_paket_A.png",
+            "D": "soal_no_62_d_paket_A.png",
+            "E": "soal_no_62_e_paket_A.png"
         },
         "jawaban_benar": "D"
     },
