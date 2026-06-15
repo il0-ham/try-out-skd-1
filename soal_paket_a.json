@@ -817,11 +817,11 @@
         "sub_kategori": "Figural",
         "soal": "Carilah gambar yang berbeda.",
         "pilihan": {
-            "A": "soal_no_59_a_paket_A",
-            "B": "soal_no_59_b_paket_A",
-            "C": "soal_no_59_c_paket_A",
-            "D": "soal_no_59_d_paket_A",
-            "E": "soal_no_59_e_paket_A"
+            "A": "soal_no_59_a_paket_A.png",
+            "B": "soal_no_59_b_paket_A.png",
+            "C": "soal_no_59_c_paket_A.png",
+            "D": "soal_no_59_d_paket_A.png",
+            "E": "soal_no_59_e_paket_A.png"
         },
         "jawaban_benar": "E"
     },
@@ -831,11 +831,11 @@
         "sub_kategori": "Figural",
         "soal": "Carilah gambar yang berbeda.",
         "pilihan": {
-            "A": "soal_no_60_a_paket_A",
-            "B": "soal_no_60_a_paket_A",
-            "C": "soal_no_60_a_paket_A",
-            "D": "soal_no_60_a_paket_A",
-            "E": "soal_no_60_a_paket_A"
+            "A": "soal_no_60_a_paket_A.png",
+            "B": "soal_no_60_a_paket_A.png",
+            "C": "soal_no_60_a_paket_A.png",
+            "D": "soal_no_60_a_paket_A.png",
+            "E": "soal_no_60_a_paket_A.png"
         },
         "jawaban_benar": "D"
     },
@@ -844,13 +844,13 @@
         "kategori": "TIU",
         "sub_kategori": "Figural",
         "soal": "Carilah gambar selanjutnya pada seri gambar berikut ini.",
-        "gambar": "soal_no_61_paket_A",
+        "gambar": "soal_no_61_paket_A.png",
         "pilihan": {
-            "A": "soal_no_61_a_paket_A",
-            "B": "soal_no_61_b_paket_A",
-            "C": "soal_no_61_c_paket_A",
-            "D": "soal_no_61_d_paket_A",
-            "E": "soal_no_61_e_paket_A"
+            "A": "soal_no_61_a_paket_A.png",
+            "B": "soal_no_61_b_paket_A.png",
+            "C": "soal_no_61_c_paket_A.png",
+            "D": "soal_no_61_d_paket_A.png",
+            "E": "soal_no_61_e_paket_A.png"
         },
         "jawaban_benar": "C"
     },
@@ -859,13 +859,13 @@
         "kategori": "TIU",
         "sub_kategori": "Figural",
         "soal": "Carilah gambar selanjutnya pada seri gambar berikut ini.",
-        "gambar": "soal_no_62_paket_A",
+        "gambar": "soal_no_62_paket_A.png",
         "pilihan": {
-            "A": "soal_no_62_paket_A",
-            "B": "soal_no_62_paket_A",
-            "C": "soal_no_62_paket_A",
-            "D": "soal_no_62_paket_A",
-            "E": "soal_no_62_paket_A"
+            "A": "soal_no_62_paket_A.png",
+            "B": "soal_no_62_paket_A.png",
+            "C": "soal_no_62_paket_A.png",
+            "D": "soal_no_62_paket_A.png",
+            "E": "soal_no_62_paket_A.png"
         },
         "jawaban_benar": "D"
     },
@@ -874,13 +874,13 @@
         "kategori": "TIU",
         "sub_kategori": "Figural",
         "soal": "Carilah gambar selanjutnya pada seri gambar berikut ini.",
-        "gambar": "soal_no_63_paket_A",
+        "gambar": "soal_no_63_paket_A.png",
         "pilihan": {
-            "A": "soal_no_63_a_paket_A",
-            "B": "soal_no_63_b_paket_A",
-            "C": "soal_no_63_c_paket_A",
-            "D": "soal_no_63_d_paket_A",
-            "E": "soal_no_63_e_paket_A"
+            "A": "soal_no_63_a_paket_A.png",
+            "B": "soal_no_63_b_paket_A.png",
+            "C": "soal_no_63_c_paket_A.png",
+            "D": "soal_no_63_d_paket_A.png",
+            "E": "soal_no_63_e_paket_A.png"
         },
         "jawaban_benar": "E"
     },
@@ -889,13 +889,13 @@
         "kategori": "TIU",
         "sub_kategori": "Figural",
         "soal": "Carilah gambar yang tepat untuk mengisi posisi 4 menggunakan logika gambar 1 dan 2.",
-        "gambar": "soal_no_64_paket_A",
+        "gambar": "soal_no_64_paket_A.png",
         "pilihan": {
-            "A": "soal_no_64_a_paket_A",
-            "B": "soal_no_64_b_paket_A",
-            "C": "soal_no_64_c_paket_A",
-            "D": "soal_no_64_d_paket_A",
-            "E": "soal_no_64_e_paket_A"
+            "A": "soal_no_64_a_paket_A.png",
+            "B": "soal_no_64_b_paket_A.png",
+            "C": "soal_no_64_c_paket_A.png",
+            "D": "soal_no_64_d_paket_A.png",
+            "E": "soal_no_64_e_paket_A.png"
         },
         "jawaban_benar": "B"
     },
@@ -904,13 +904,13 @@
         "kategori": "TIU",
         "sub_kategori": "Figural",
         "soal": "Carilah gambar yang tepat untuk mengisi posisi 4 menggunakan logika gambar 1 dan 2.",
-        "gambar": "soal_no_65_paket_A",
+        "gambar": "soal_no_65_paket_A.png",
         "pilihan": {
-            "A": "soal_no_65_a_paket_A",
-            "B": "soal_no_65_b_paket_A",
-            "C": "soal_no_65_c_paket_A",
-            "D": "soal_no_65_d_paket_A",
-            "E": "soal_no_65_e_paket_A"
+            "A": "soal_no_65_a_paket_A.png",
+            "B": "soal_no_65_b_paket_A.png",
+            "C": "soal_no_65_c_paket_A.png",
+            "D": "soal_no_65_d_paket_A.png",
+            "E": "soal_no_65_e_paket_A.png"
         },
         "jawaban_benar": "B"
     },
