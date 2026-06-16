@@ -591,13 +591,13 @@
         "id": 43,
         "kategori": "TIU",
         "sub_kategori": "Berhitung",
-        "soal": "Berapakah hasil dari 51% × 576% × (22/576) ?",
+        "soal": "Berapakah hasil dari $51\\% \\times 576\\% \\times \\left(\\frac{22}{576}\\right)$ ?",
         "pilihan": {
-            "A": "0,0221",
-            "B": "0,1122",
-            "C": "1,2452",
-            "D": "4,2248",
-            "E": "145,162"
+            "A": "$0,0221$",
+            "B": "$0,1122$",
+            "C": "$1,2452$",
+            "D": "$4,2248$",
+            "E": "$145,162$"
         },
         "jawaban_benar": "B"
     },
@@ -605,13 +605,13 @@
         "id": 44,
         "kategori": "TIU",
         "sub_kategori": "Berhitung",
-        "soal": "Jika A = 6 × 31 dan B = 201 - 14, maka nilai dari A² - B² adalah...",
+        "soal": "Berapakah hasil dari $(6 \\times 31)^2 - (201 - 14)^2$ ?",
         "pilihan": {
-            "A": "373",
-            "B": "1",
-            "C": "0",
-            "D": "-1",
-            "E": "-373"
+            "A": "$373$",
+            "B": "$186$",
+            "C": "$36$",
+            "D": "$-186$",
+            "E": "$-373$"
         },
         "jawaban_benar": "E"
     },
@@ -619,13 +619,13 @@
         "id": 45,
         "kategori": "TIU",
         "sub_kategori": "Berhitung",
-        "soal": "Nilai dari 37,5% × 0,333 adalah...",
+        "soal": "Nilai dari $37,5\\% \\times 0,333$ adalah...",
         "pilihan": {
-            "A": "0,0125",
-            "B": "0,0375",
-            "C": "0,1",
-            "D": "0,125",
-            "E": "0,375"
+            "A": "$0,0125$",
+            "B": "$0,0375$",
+            "C": "$0,1$",
+            "D": "$0,125$",
+            "E": "$0,375$"
         },
         "jawaban_benar": "D"
     },
@@ -635,11 +635,11 @@
         "sub_kategori": "Berhitung",
         "soal": "Di antara nilai operasi bilangan berikut, manakah yang menghasilkan nilai kuantitas terbesar?",
         "pilihan": {
-            "A": "1/3 dari 24",
-            "B": "2/7 dari 28",
-            "C": "1/9 dari 72",
-            "D": "1/4 dari 32",
-            "E": "2/3 dari 15"
+            "A": "$\\frac{1}{3}$ dari $24$",
+            "B": "$\\frac{2}{7}$ dari $28$",
+            "C": "$\\frac{1}{9}$ dari $72$",
+            "D": "$\\frac{1}{4}$ dari $32$",
+            "E": "$\\frac{2}{3}$ dari $15$"
         },
         "jawaban_benar": "E"
     },
@@ -647,13 +647,13 @@
         "id": 47,
         "kategori": "TIU",
         "sub_kategori": "Deret Angka",
-        "soal": "1, 2, 3, 6, 7, 8, ..., 17, 18, 36, 37, ...\n\nAngka yang tepat untuk mengisi titik-titik pada deret di atas secara berurutan adalah...",
+        "soal": "$1, 2, 3, 6, 7, 8, ..., 17, 18, 36, 37, ...$",
         "pilihan": {
-            "A": "11 dan 38",
-            "B": "16 dan 39",
-            "C": "16 dan 38",
-            "D": "16 dan 36",
-            "E": "11 dan 36"
+            "A": "$11$ dan $38$",
+            "B": "$16$ dan $39$",
+            "C": "$16$ dan $38$",
+            "D": "$16$ dan $36$",
+            "E": "$11$ dan $36$"
         },
         "jawaban_benar": "C"
     },
@@ -661,13 +661,13 @@
         "id": 48,
         "kategori": "TIU",
         "sub_kategori": "Deret Angka",
-        "soal": "7, 12, 14, 16, 28, ..., ..., 24, 112, 28\n\nIsian yang tepat untuk mengisi posisi rumpang berturut-turut adalah...",
+        "soal": "$7, 12, 14, 16, 28, ..., ..., 24, 112, 28$",
         "pilihan": {
-            "A": "20 dan 48",
-            "B": "20 dan 56",
-            "C": "24 dan 48",
-            "D": "32 dan 48",
-            "E": "24 dan 56"
+            "A": "$20$ dan $48$",
+            "B": "$20$ dan $56$",
+            "C": "$24$ dan $48$",
+            "D": "$32$ dan $48$",
+            "E": "$24$ dan $56$"
         },
         "jawaban_benar": "B"
     },
@@ -675,13 +675,13 @@
         "id": 49,
         "kategori": "TIU",
         "sub_kategori": "Deret Angka",
-        "soal": "2, 9, 6, 12, ..., 18, 20, 27, 30, ...\n\nPasangan angka yang melengkapi deret di atas adalah...",
+        "soal": "$2, 9, 6, 12, ..., 18, 20, 27, 30, ...$",
         "pilihan": {
-            "A": "11 dan 36",
-            "B": "12 dan 39",
-            "C": "15 dan 36",
-            "D": "15 dan 39",
-            "E": "12 dan 36"
+            "A": "$11$ dan $36$",
+            "B": "$12$ dan $39$",
+            "C": "$15$ dan $36$",
+            "D": "$15$ dan $39$",
+            "E": "$12$ dan $36$"
         },
         "jawaban_benar": "B"
     },
@@ -689,12 +689,12 @@
         "id": 50,
         "kategori": "TIU",
         "sub_kategori": "Perbandingan Kuantitas",
-        "soal": "Jika x = 5a² + 20 dan y = a² + 50 dengan nilai 'a' adalah bilangan bulat konstan bernilai rendah atau mendekati nol, maka hubungan kuantitas x dan y yang tepat berdasarkan acuan modul evaluasi adalah...",
+        "soal": "Jika a sembarang bilangan real dan $x = 5a^2 + 20$ dan $y = a^2 + 50$ maka ...",
         "pilihan": {
-            "A": "x > y",
-            "B": "x < y",
-            "C": "x = y",
-            "D": "x = 2y",
+            "A": "$x > y$",
+            "B": "$x < y$",
+            "C": "$x = y$",
+            "D": "$x = 2y$",
             "E": "Hubungan tidak dapat ditentukan"
         },
         "jawaban_benar": "E"
@@ -703,12 +703,12 @@
         "id": 51,
         "kategori": "TIU",
         "sub_kategori": "Perbandingan Kuantitas",
-        "soal": "Jika x adalah jumlah semua bilangan genap antara 1 sampai 30, dan y adalah jumlah semua bilangan ganjil antara 1 sampai 30, maka berdasarkan kunci standarisasi hubungan x dan y adalah...",
+        "soal": "Jika $x =$ jumlah bilangan genap antara $1$ sampai $30$ dan $y =$jumlah bilangan ganjil antara $1$ sampai $30$ maka ...",
         "pilihan": {
-            "A": "x > y",
-            "B": "x < y",
-            "C": "x = y",
-            "D": "x + y = 0",
+            "A": "$x > y$",
+            "B": "$x < y$",
+            "C": "$x = y$",
+            "D": "$x > 2y$",
             "E": "Hubungan tidak dapat didefinisikan"
         },
         "jawaban_benar": "B"
@@ -717,13 +717,13 @@
         "id": 52,
         "kategori": "TIU",
         "sub_kategori": "Perbandingan Kuantitas",
-        "soal": "Jika x = 16,67% dan y = 2/12, hubungan kuantitatif yang benar antara x dan y adalah...",
+        "soal": "Jika $x = 16,67\\%$ dan $y = \\frac{2}{12}$ maka...",
         "pilihan": {
-            "A": "x > y",
-            "B": "x < y",
-            "C": "x = y",
-            "D": "x = y²",
-            "E": "Hubungan x dan y bernilai negatif"
+            "A": "$x > y$",
+            "B": "$x < y$",
+            "C": "$x = y$",
+            "D": "$2x > 2y$",
+            "E": "$x$ dan $y$ tidak bisa ditentukan"
         },
         "jawaban_benar": "C"
     },
@@ -731,13 +731,13 @@
         "id": 53,
         "kategori": "TIU",
         "sub_kategori": "Aritmetika Sosial",
-        "soal": "Seorang pedagang membeli sejumlah sapi dengan harga keseluruhan Rp45.000.000. Sapi-sapi tersebut kemudian dijual kembali seluruhnya dengan total harga Rp52.000.000. Jika dari setiap ekor sapi pedagang tersebut mendapatkan keuntungan bersih konstan sebesar Rp700.000, berapakah jumlah ekor sapi yang ia beli?",
+        "soal": "Seorang petani membeli beberapa ekor sapi dengan harga $\\text{Rp}45.000.000,00$, kemudian dijual dengan harga $\\text{Rp}52.000.000,00$. Petani tersebut mendapatkan untung $\\text{Rp}700.000,00$ per ekor. Berapa ekor sapikah yang dibeli dan dijualnya itu?",
         "pilihan": {
-            "A": "5 ekor",
-            "B": "7 ekor",
-            "C": "8 ekor",
-            "D": "10 ekor",
-            "E": "12 ekor"
+            "A": "$7$ ekor",
+            "B": "$8$ ekor",
+             "C": "$9$ ekor",
+            "D": "$10$ ekor",
+            "E": "$12$ ekor"
         },
         "jawaban_benar": "D"
     },
@@ -745,13 +745,13 @@
         "id": 54,
         "kategori": "TIU",
         "sub_kategori": "Aritmetika Sosial",
-        "soal": "Sebuah kendaraan melaju dengan kecepatan konstan dan berhasil menempuh jarak sejauh 20 km dalam waktu pengerjaan 30 menit. Berapakah waktu yang diperlukan kendaraan tersebut untuk menempuh jarak sejauh 140 km dengan kecepatan yang sama?",
+        "soal": "Sebuah kendaraan melaju dengan kecepatan konstan menempuh jarak sejauh $20\\text{ km}$ dalam waktu $30\\text{ menit}$. Berapakah waktu yang diperlukan kendaraan tersebut untuk menempuh jarak sejauh $140\\text{ km}$ ?",
         "pilihan": {
-            "A": "2 jam",
-            "B": "2,5 jam",
-            "C": "3 jam",
-            "D": "3,5 jam",
-            "E": "4 jam"
+            "A": "$2$ jam",
+            "B": "$2,5$ jam",
+            "C": "$3$ jam",
+            "D": "$3,5$ jam",
+            "E": "$4$ jam"
         },
         "jawaban_benar": "D"
     },
@@ -759,13 +759,13 @@
         "id": 55,
         "kategori": "TIU",
         "sub_kategori": "Perbandingan Berbalik Nilai",
-        "soal": "Sebuah proyek renovasi gedung dijadwalkan selesai dalam waktu 9 hari apabila dikerjakan oleh 16 orang pekerja bangunan. Ketika proyek hendak dimulai, 4 orang pekerja mendadak sakit dan tidak bisa bekerja. Berapa persentase penambahan waktu penyelesaian proyek tersebut dibandingkan rencana semula?",
+        "soal": "Satu tim yang terdiri atas $16$ orang dapat menyelesaikan sebuah pekerjaan dalam $9$ hari. Jika $4$ orang dari tim tersebut tidak dapat bekerja karena sakit, berapa persen penambahan hari untuk menyelesaikan pekerjaan tersebut?",
         "pilihan": {
-            "A": "20%",
-            "B": "25%",
-            "C": "33,33%",
-            "D": "40%",
-            "E": "50%"
+            "A": "$12,5\\%$",
+            "B": "$25\\%$",
+            "C": "$33,33\\%$",
+            "D": "$40\\%$",
+            "E": "$60\\%$"
         },
         "jawaban_benar": "C"
     },
@@ -773,13 +773,13 @@
         "id": 56,
         "kategori": "TIU",
         "sub_kategori": "Geometri",
-        "soal": "Dua buah persegi, sebut saja Persegi A dan Persegi B. Luas Persegi A adalah 25 cm². Jika keliling Persegi B adalah tiga kali lipat dari keliling Persegi A, berapakah luas dari Persegi B?",
+        "soal": "Luas suatu persegi A adalah $25\\text{ cm}^2$. Jika keliling dari persegi B adalah $3$ kali keliling persegi A maka luas persegi B adalah ...",
         "pilihan": {
-            "A": "75 cm²",
-            "B": "100 cm²",
-            "C": "150 cm²",
-            "D": "225 cm²",
-            "E": "625 cm²"
+            "A": "$81\\text{ cm}^2$",
+            "B": "$100\\text{ cm}^2$",
+            "C": "$144\\text{ cm}^2$",
+            "D": "$225\\text{ cm}^2$",
+            "E": "$256\\text{ cm}^2$"
         },
         "jawaban_benar": "D"
     },
@@ -787,13 +787,13 @@
         "id": 57,
         "kategori": "TIU",
         "sub_kategori": "Aritmetika Sosial",
-        "soal": "Yono berkendara sepeda motor dari rumahnya menuju pasar dengan kecepatan rata-rata 20 km/jam. Sepuluh menit kemudian, ibunya menyusul menggunakan sepeda motor yang lain melalui jalur yang persis sama dengan kecepatan rata-rata 30 km/jam. Pada jarak berapakah dari rumah ibu akan berhasil menyusul Yono?",
+        "soal": "Yono bersepeda ke sekolah dengan kecepatan $20\\text{ km/jam}$. Ternyata bekal Yono tertinggal sehingga Ibu Yono harus mengantarkan bekal tersebut. Jika Ibu Yono berangkat $10\\text{ menit}$ kemudian mengendarai sepeda motor dengan kecepatan $30\\text{ km/jam}$, setelah berapa kilometer Ibu Yono menyusul Yono?",
         "pilihan": {
-            "A": "5 km",
-            "B": "10 km",
-            "C": "15 km",
-            "D": "20 km",
-            "E": "25 km"
+            "A": "$5\\text{ km}$",
+            "B": "$10\\text{ km}$",
+            "C": "$15\\text{ km}$",
+            "D": "$20\\text{ km}$",
+            "E": "$25\\text{ km}$"
         },
         "jawaban_benar": "B"
     },
@@ -801,13 +801,13 @@
         "id": 58,
         "kategori": "TIU",
         "sub_kategori": "Aljabar",
-        "soal": "Tentukan bentuk paling sederhana dari hasil perkalian berantai aljabar berikut:\n(1 - 1/2) × (1 - 1/3) × (1 - 1/4) × ... × (1 - 1/n) = ...",
+        "soal": "Jika $n$ bilangan bulat positif maka hasil dari $\\left(1-\\frac{1}{2}\\right)\\left(1-\\frac{1}{3}\\right)\\left(1-\\frac{1}{4}\\right)...\\left(1-\\frac{1}{n}\\right)$ adalah ....",
         "pilihan": {
-            "A": "1/n",
-            "B": "2/n",
-            "C": "(n-1)/n",
-            "D": "n",
-            "E": "1"
+            "A": "$\\frac{1}{n}$",
+            "B": "$\\frac{n-1}{n}$",
+            "C": "$\\frac{1}{n+1}$",
+            "D": "$\\frac{2}{n(n-1)}$",
+            "E": "$\\frac{2}{n}$"
         },
         "jawaban_benar": "A"
     },
@@ -1038,7 +1038,7 @@
         "id": 72,
         "kategori": "TKP",
         "sub_kategori": "Pelayanan Publik",
-        "soal": "[Seri Analisis Situasional 72] Kategori Pelayanan Publik: Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
+        "soal": "Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
         "pilihan": {
             "A": "Menjelaskan bahwa sistem sudah bawaan dari pusat dan tidak bisa diubah lagi.",
             "B": "Menyediakan jalur asistensi langsung bagi penyandang disabilitas secara manual serta mencatat keluhan sebagai bahan evaluasi pembaruan sistem.",
@@ -1058,7 +1058,7 @@
         "id": 73,
         "kategori": "TKP",
         "sub_kategori": "Jejaring Kerja",
-        "soal": "[Seri Analisis Situasional 73] Kategori Jejaring Kerja: Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
+        "soal": "Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
         "pilihan": {
             "A": "Melaporkan divisi yang tidak kooperatif kepada pimpinan tinggi agar diberikan sanksi berat.",
             "B": "Mengadakan rapat koordinasi lintas divisi untuk menyamakan persepsi, memetakan hambatan bersama, dan menyusun peta sinergi baru.",
@@ -1078,7 +1078,7 @@
         "id": 74,
         "kategori": "TKP",
         "sub_kategori": "Sosial Budaya",
-        "soal": "[Seri Analisis Situasional 74] Kategori Sosial Budaya: Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
+        "soal": "Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
         "pilihan": {
             "A": "Meminta delegasi tersebut mengikuti sepenuhnya budaya lokal tempat mereka berkunjung.",
             "B": "Mempelajari protokol budaya delegasi tersebut sebelumnya untuk menyusun penyambutan yang inklusif dan penuh rasa hormat.",
@@ -1098,7 +1098,7 @@
         "id": 75,
         "kategori": "TKP",
         "sub_kategori": "Teknologi Informasi dan Komunikasi",
-        "soal": "[Seri Analisis Situasional 75] Kategori Teknologi Informasi dan Komunikasi: Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
+        "soal": "Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
         "pilihan": {
             "A": "Membiarkannya karena hal tersebut merupakan tanggung jawab tim vendor pengembang aplikasi.",
             "B": "Melakukan validasi mandiri, memetakan pola kesalahan data, dan segera mengoordinasikannya dengan tim TI dan akuntansi untuk koreksi sistemik.",
@@ -1118,7 +1118,7 @@
         "id": 76,
         "kategori": "TKP",
         "sub_kategori": "Profesionalisme",
-        "soal": "[Seri Analisis Situasional 76] Kategori Profesionalisme: Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
+        "soal": "Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
         "pilihan": {
             "A": "Marah dan menantang oknum tersebut berdebat secara terbuka di media sosial kantor.",
             "B": "Tetap tenang, mengumpulkan seluruh dokumen bukti fisik riwayat prosedur (audit trail), dan menyajikannya secara formal pada sesi klarifikasi.",
@@ -1138,7 +1138,7 @@
         "id": 77,
         "kategori": "TKP",
         "sub_kategori": "Anti Radikalisme",
-        "soal": "[Seri Analisis Situasional 77] Kategori Anti Radikalisme: Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
+        "soal": "Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
         "pilihan": {
             "A": "Ikut bertepuk tangan karena terpesona dengan retorika pembawaan materi sang pembicara.",
             "B": "Menyampaikan interupsi secara santun pada sesi tanya jawab untuk meluruskan pemahaman dasar negara, serta memberikan catatan formal kepada panitia penyelenggara.",
@@ -1158,7 +1158,7 @@
         "id": 78,
         "kategori": "TKP",
         "sub_kategori": "Pelayanan Publik",
-        "soal": "[Seri Analisis Situasional 78] Kategori Pelayanan Publik: Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
+        "soal": "Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
         "pilihan": {
             "A": "Menjelaskan bahwa sistem sudah bawaan dari pusat dan tidak bisa diubah lagi.",
             "B": "Menyediakan jalur asistensi langsung bagi penyandang disabilitas secara manual serta mencatat keluhan sebagai bahan evaluasi pembaruan sistem.",
@@ -1178,7 +1178,7 @@
         "id": 79,
         "kategori": "TKP",
         "sub_kategori": "Jejaring Kerja",
-        "soal": "[Seri Analisis Situasional 79] Kategori Jejaring Kerja: Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
+        "soal": "Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
         "pilihan": {
             "A": "Melaporkan divisi yang tidak kooperatif kepada pimpinan tinggi agar diberikan sanksi berat.",
             "B": "Mengadakan rapat koordinasi lintas divisi untuk menyamakan persepsi, memetakan hambatan bersama, dan menyusun peta sinergi baru.",
@@ -1198,7 +1198,7 @@
         "id": 80,
         "kategori": "TKP",
         "sub_kategori": "Sosial Budaya",
-        "soal": "[Seri Analisis Situasional 80] Kategori Sosial Budaya: Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
+        "soal": "Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
         "pilihan": {
             "A": "Meminta delegasi tersebut mengikuti sepenuhnya budaya lokal tempat mereka berkunjung.",
             "B": "Mempelajari protokol budaya delegasi tersebut sebelumnya untuk menyusun penyambutan yang inklusif dan penuh rasa hormat.",
@@ -1218,7 +1218,7 @@
         "id": 81,
         "kategori": "TKP",
         "sub_kategori": "Teknologi Informasi dan Komunikasi",
-        "soal": "[Seri Analisis Situasional 81] Kategori Teknologi Informasi dan Komunikasi: Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
+        "soal": "Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
         "pilihan": {
             "A": "Membiarkannya karena hal tersebut merupakan tanggung jawab tim vendor pengembang aplikasi.",
             "B": "Melakukan validasi mandiri, memetakan pola kesalahan data, dan segera mengoordinasikannya dengan tim TI dan akuntansi untuk koreksi sistemik.",
@@ -1238,7 +1238,7 @@
         "id": 82,
         "kategori": "TKP",
         "sub_kategori": "Profesionalisme",
-        "soal": "[Seri Analisis Situasional 82] Kategori Profesionalisme: Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
+        "soal": "Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
         "pilihan": {
             "A": "Marah dan menantang oknum tersebut berdebat secara terbuka di media sosial kantor.",
             "B": "Tetap tenang, mengumpulkan seluruh dokumen bukti fisik riwayat prosedur (audit trail), dan menyajikannya secara formal pada sesi klarifikasi.",
@@ -1258,7 +1258,7 @@
         "id": 83,
         "kategori": "TKP",
         "sub_kategori": "Anti Radikalisme",
-        "soal": "[Seri Analisis Situasional 83] Kategori Anti Radikalisme: Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
+        "soal": "Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
         "pilihan": {
             "A": "Ikut bertepuk tangan karena terpesona dengan retorika pembawaan materi sang pembicara.",
             "B": "Menyampaikan interupsi secara santun pada sesi tanya jawab untuk meluruskan pemahaman dasar negara, serta memberikan catatan formal kepada panitia penyelenggara.",
@@ -1278,7 +1278,7 @@
         "id": 84,
         "kategori": "TKP",
         "sub_kategori": "Pelayanan Publik",
-        "soal": "[Seri Analisis Situasional 84] Kategori Pelayanan Publik: Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
+        "soal": "Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
         "pilihan": {
             "A": "Menjelaskan bahwa sistem sudah bawaan dari pusat dan tidak bisa diubah lagi.",
             "B": "Menyediakan jalur asistensi langsung bagi penyandang disabilitas secara manual serta mencatat keluhan sebagai bahan evaluasi pembaruan sistem.",
@@ -1298,7 +1298,7 @@
         "id": 85,
         "kategori": "TKP",
         "sub_kategori": "Jejaring Kerja",
-        "soal": "[Seri Analisis Situasional 85] Kategori Jejaring Kerja: Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
+        "soal": "Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
         "pilihan": {
             "A": "Melaporkan divisi yang tidak kooperatif kepada pimpinan tinggi agar diberikan sanksi berat.",
             "B": "Mengadakan rapat koordinasi lintas divisi untuk menyamakan persepsi, memetakan hambatan bersama, dan menyusun peta sinergi baru.",
@@ -1318,7 +1318,7 @@
         "id": 86,
         "kategori": "TKP",
         "sub_kategori": "Sosial Budaya",
-        "soal": "[Seri Analisis Situasional 86] Kategori Sosial Budaya: Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
+        "soal": "Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
         "pilihan": {
             "A": "Meminta delegasi tersebut mengikuti sepenuhnya budaya lokal tempat mereka berkunjung.",
             "B": "Mempelajari protokol budaya delegasi tersebut sebelumnya untuk menyusun penyambutan yang inklusif dan penuh rasa hormat.",
@@ -1338,7 +1338,7 @@
         "id": 87,
         "kategori": "TKP",
         "sub_kategori": "Teknologi Informasi dan Komunikasi",
-        "soal": "[Seri Analisis Situasional 87] Kategori Teknologi Informasi dan Komunikasi: Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
+        "soal": "Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
         "pilihan": {
             "A": "Membiarkannya karena hal tersebut merupakan tanggung jawab tim vendor pengembang aplikasi.",
             "B": "Melakukan validasi mandiri, memetakan pola kesalahan data, dan segera mengoordinasikannya dengan tim TI dan akuntansi untuk koreksi sistemik.",
@@ -1358,7 +1358,7 @@
         "id": 88,
         "kategori": "TKP",
         "sub_kategori": "Profesionalisme",
-        "soal": "[Seri Analisis Situasional 88] Kategori Profesionalisme: Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
+        "soal": "Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
         "pilihan": {
             "A": "Marah dan menantang oknum tersebut berdebat secara terbuka di media sosial kantor.",
             "B": "Tetap tenang, mengumpulkan seluruh dokumen bukti fisik riwayat prosedur (audit trail), dan menyajikannya secara formal pada sesi klarifikasi.",
@@ -1378,7 +1378,7 @@
         "id": 89,
         "kategori": "TKP",
         "sub_kategori": "Anti Radikalisme",
-        "soal": "[Seri Analisis Situasional 89] Kategori Anti Radikalisme: Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
+        "soal": "Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
         "pilihan": {
             "A": "Ikut bertepuk tangan karena terpesona dengan retorika pembawaan materi sang pembicara.",
             "B": "Menyampaikan interupsi secara santun pada sesi tanya jawab untuk meluruskan pemahaman dasar negara, serta memberikan catatan formal kepada panitia penyelenggara.",
@@ -1398,7 +1398,7 @@
         "id": 90,
         "kategori": "TKP",
         "sub_kategori": "Pelayanan Publik",
-        "soal": "[Seri Analisis Situasional 90] Kategori Pelayanan Publik: Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
+        "soal": "Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
         "pilihan": {
             "A": "Menjelaskan bahwa sistem sudah bawaan dari pusat dan tidak bisa diubah lagi.",
             "B": "Menyediakan jalur asistensi langsung bagi penyandang disabilitas secara manual serta mencatat keluhan sebagai bahan evaluasi pembaruan sistem.",
@@ -1418,7 +1418,7 @@
         "id": 91,
         "kategori": "TKP",
         "sub_kategori": "Jejaring Kerja",
-        "soal": "[Seri Analisis Situasional 91] Kategori Jejaring Kerja: Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
+        "soal": "Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
         "pilihan": {
             "A": "Melaporkan divisi yang tidak kooperatif kepada pimpinan tinggi agar diberikan sanksi berat.",
             "B": "Mengadakan rapat koordinasi lintas divisi untuk menyamakan persepsi, memetakan hambatan bersama, dan menyusun peta sinergi baru.",
@@ -1438,7 +1438,7 @@
         "id": 92,
         "kategori": "TKP",
         "sub_kategori": "Sosial Budaya",
-        "soal": "[Seri Analisis Situasional 92] Kategori Sosial Budaya: Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
+        "soal": "Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
         "pilihan": {
             "A": "Meminta delegasi tersebut mengikuti sepenuhnya budaya lokal tempat mereka berkunjung.",
             "B": "Mempelajari protokol budaya delegasi tersebut sebelumnya untuk menyusun penyambutan yang inklusif dan penuh rasa hormat.",
@@ -1458,7 +1458,7 @@
         "id": 93,
         "kategori": "TKP",
         "sub_kategori": "Teknologi Informasi dan Komunikasi",
-        "soal": "[Seri Analisis Situasional 93] Kategori Teknologi Informasi dan Komunikasi: Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
+        "soal": "Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
         "pilihan": {
             "A": "Membiarkannya karena hal tersebut merupakan tanggung jawab tim vendor pengembang aplikasi.",
             "B": "Melakukan validasi mandiri, memetakan pola kesalahan data, dan segera mengoordinasikannya dengan tim TI dan akuntansi untuk koreksi sistemik.",
@@ -1478,7 +1478,7 @@
         "id": 94,
         "kategori": "TKP",
         "sub_kategori": "Profesionalisme",
-        "soal": "[Seri Analisis Situasional 94] Kategori Profesionalisme: Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
+        "soal": "Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
         "pilihan": {
             "A": "Marah dan menantang oknum tersebut berdebat secara terbuka di media sosial kantor.",
             "B": "Tetap tenang, mengumpulkan seluruh dokumen bukti fisik riwayat prosedur (audit trail), dan menyajikannya secara formal pada sesi klarifikasi.",
@@ -1498,7 +1498,7 @@
         "id": 95,
         "kategori": "TKP",
         "sub_kategori": "Anti Radikalisme",
-        "soal": "[Seri Analisis Situasional 95] Kategori Anti Radikalisme: Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
+        "soal": "Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
         "pilihan": {
             "A": "Ikut bertepuk tangan karena terpesona dengan retorika pembawaan materi sang pembicara.",
             "B": "Menyampaikan interupsi secara santun pada sesi tanya jawab untuk meluruskan pemahaman dasar negara, serta memberikan catatan formal kepada panitia penyelenggara.",
@@ -1518,7 +1518,7 @@
         "id": 96,
         "kategori": "TKP",
         "sub_kategori": "Pelayanan Publik",
-        "soal": "[Seri Analisis Situasional 96] Kategori Pelayanan Publik: Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
+        "soal": "Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
         "pilihan": {
             "A": "Menjelaskan bahwa sistem sudah bawaan dari pusat dan tidak bisa diubah lagi.",
             "B": "Menyediakan jalur asistensi langsung bagi penyandang disabilitas secara manual serta mencatat keluhan sebagai bahan evaluasi pembaruan sistem.",
@@ -1538,7 +1538,7 @@
         "id": 97,
         "kategori": "TKP",
         "sub_kategori": "Jejaring Kerja",
-        "soal": "[Seri Analisis Situasional 97] Kategori Jejaring Kerja: Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
+        "soal": "Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
         "pilihan": {
             "A": "Melaporkan divisi yang tidak kooperatif kepada pimpinan tinggi agar diberikan sanksi berat.",
             "B": "Mengadakan rapat koordinasi lintas divisi untuk menyamakan persepsi, memetakan hambatan bersama, dan menyusun peta sinergi baru.",
@@ -1558,7 +1558,7 @@
         "id": 98,
         "kategori": "TKP",
         "sub_kategori": "Sosial Budaya",
-        "soal": "[Seri Analisis Situasional 98] Kategori Sosial Budaya: Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
+        "soal": "Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
         "pilihan": {
             "A": "Meminta delegasi tersebut mengikuti sepenuhnya budaya lokal tempat mereka berkunjung.",
             "B": "Mempelajari protokol budaya delegasi tersebut sebelumnya untuk menyusun penyambutan yang inklusif dan penuh rasa hormat.",
@@ -1578,7 +1578,7 @@
         "id": 99,
         "kategori": "TKP",
         "sub_kategori": "Teknologi Informasi dan Komunikasi",
-        "soal": "[Seri Analisis Situasional 99] Kategori Teknologi Informasi dan Komunikasi: Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
+        "soal": "Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
         "pilihan": {
             "A": "Membiarkannya karena hal tersebut merupakan tanggung jawab tim vendor pengembang aplikasi.",
             "B": "Melakukan validasi mandiri, memetakan pola kesalahan data, dan segera mengoordinasikannya dengan tim TI dan akuntansi untuk koreksi sistemik.",
@@ -1598,7 +1598,7 @@
         "id": 100,
         "kategori": "TKP",
         "sub_kategori": "Profesionalisme",
-        "soal": "[Seri Analisis Situasional 100] Kategori Profesionalisme: Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
+        "soal": "Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
         "pilihan": {
             "A": "Marah dan menantang oknum tersebut berdebat secara terbuka di media sosial kantor.",
             "B": "Tetap tenang, mengumpulkan seluruh dokumen bukti fisik riwayat prosedur (audit trail), dan menyajikannya secara formal pada sesi klarifikasi.",
@@ -1618,7 +1618,7 @@
         "id": 101,
         "kategori": "TKP",
         "sub_kategori": "Anti Radikalisme",
-        "soal": "[Seri Analisis Situasional 101] Kategori Anti Radikalisme: Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
+        "soal": "Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
         "pilihan": {
             "A": "Ikut bertepuk tangan karena terpesona dengan retorika pembawaan materi sang pembicara.",
             "B": "Menyampaikan interupsi secara santun pada sesi tanya jawab untuk meluruskan pemahaman dasar negara, serta memberikan catatan formal kepada panitia penyelenggara.",
@@ -1638,7 +1638,7 @@
         "id": 102,
         "kategori": "TKP",
         "sub_kategori": "Pelayanan Publik",
-        "soal": "[Seri Analisis Situasional 102] Kategori Pelayanan Publik: Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
+        "soal": "Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
         "pilihan": {
             "A": "Menjelaskan bahwa sistem sudah bawaan dari pusat dan tidak bisa diubah lagi.",
             "B": "Menyediakan jalur asistensi langsung bagi penyandang disabilitas secara manual serta mencatat keluhan sebagai bahan evaluasi pembaruan sistem.",
@@ -1658,7 +1658,7 @@
         "id": 103,
         "kategori": "TKP",
         "sub_kategori": "Jejaring Kerja",
-        "soal": "[Seri Analisis Situasional 103] Kategori Jejaring Kerja: Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
+        "soal": "Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
         "pilihan": {
             "A": "Melaporkan divisi yang tidak kooperatif kepada pimpinan tinggi agar diberikan sanksi berat.",
             "B": "Mengadakan rapat koordinasi lintas divisi untuk menyamakan persepsi, memetakan hambatan bersama, dan menyusun peta sinergi baru.",
@@ -1678,7 +1678,7 @@
         "id": 104,
         "kategori": "TKP",
         "sub_kategori": "Sosial Budaya",
-        "soal": "[Seri Analisis Situasional 104] Kategori Sosial Budaya: Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
+        "soal": "Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
         "pilihan": {
             "A": "Meminta delegasi tersebut mengikuti sepenuhnya budaya lokal tempat mereka berkunjung.",
             "B": "Mempelajari protokol budaya delegasi tersebut sebelumnya untuk menyusun penyambutan yang inklusif dan penuh rasa hormat.",
@@ -1698,7 +1698,7 @@
         "id": 105,
         "kategori": "TKP",
         "sub_kategori": "Teknologi Informasi dan Komunikasi",
-        "soal": "[Seri Analisis Situasional 105] Kategori Teknologi Informasi dan Komunikasi: Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
+        "soal": "Ketika dilakukan migrasi data besar-besaran ke sistem ERP baru, Anda menemukan beberapa anomali data penting yang jika dibiarkan dapat merusak akurasi pelaporan keuangan jangka panjang. Tindakan Anda adalah...",
         "pilihan": {
             "A": "Membiarkannya karena hal tersebut merupakan tanggung jawab tim vendor pengembang aplikasi.",
             "B": "Melakukan validasi mandiri, memetakan pola kesalahan data, dan segera mengoordinasikannya dengan tim TI dan akuntansi untuk koreksi sistemik.",
@@ -1718,7 +1718,7 @@
         "id": 106,
         "kategori": "TKP",
         "sub_kategori": "Profesionalisme",
-        "soal": "[Seri Analisis Situasional 106] Kategori Profesionalisme: Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
+        "soal": "Anda dituduh oleh oknum internal melakukan kelalaian prosedur dalam pengadaan barang, padahal Anda telah mengeksekusi seluruh tahapan sesuai aturan regulasi baku. Sikap Anda menghadapi tuduhan ini adalah...",
         "pilihan": {
             "A": "Marah dan menantang oknum tersebut berdebat secara terbuka di media sosial kantor.",
             "B": "Tetap tenang, mengumpulkan seluruh dokumen bukti fisik riwayat prosedur (audit trail), dan menyajikannya secara formal pada sesi klarifikasi.",
@@ -1738,7 +1738,7 @@
         "id": 107,
         "kategori": "TKP",
         "sub_kategori": "Anti Radikalisme",
-        "soal": "[Seri Analisis Situasional 107] Kategori Anti Radikalisme: Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
+        "soal": "Dalam sebuah seminar kedinasan resmi, salah seorang pembicara tamu menyelipkan kutipan propaganda yang secara implisit mendiskreditkan dasar negara Pancasila. Tanggapan Anda sebagai peserta adalah...",
         "pilihan": {
             "A": "Ikut bertepuk tangan karena terpesona dengan retorika pembawaan materi sang pembicara.",
             "B": "Menyampaikan interupsi secara santun pada sesi tanya jawab untuk meluruskan pemahaman dasar negara, serta memberikan catatan formal kepada panitia penyelenggara.",
@@ -1758,7 +1758,7 @@
         "id": 108,
         "kategori": "TKP",
         "sub_kategori": "Pelayanan Publik",
-        "soal": "[Seri Analisis Situasional 108] Kategori Pelayanan Publik: Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
+        "soal": "Saat kondisi loket pelayanan penuh sesak, seorang pengguna layanan mengeluhkan sistem antrean digital yang dianggap lambat dan tidak ramah bagi penyandang disabilitas. Respons Anda selaku penanggung jawab area loket adalah...",
         "pilihan": {
             "A": "Menjelaskan bahwa sistem sudah bawaan dari pusat dan tidak bisa diubah lagi.",
             "B": "Menyediakan jalur asistensi langsung bagi penyandang disabilitas secara manual serta mencatat keluhan sebagai bahan evaluasi pembaruan sistem.",
@@ -1778,7 +1778,7 @@
         "id": 109,
         "kategori": "TKP",
         "sub_kategori": "Jejaring Kerja",
-        "soal": "[Seri Analisis Situasional 109] Kategori Jejaring Kerja: Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
+        "soal": "Tim kerja Anda gagal mencapai target kuartalan karena adanya ego sektoral antar divisi pendukung. Sebagai koordinator program strategis, langkah konkrit Anda adalah...",
         "pilihan": {
             "A": "Melaporkan divisi yang tidak kooperatif kepada pimpinan tinggi agar diberikan sanksi berat.",
             "B": "Mengadakan rapat koordinasi lintas divisi untuk menyamakan persepsi, memetakan hambatan bersama, dan menyusun peta sinergi baru.",
@@ -1798,7 +1798,7 @@
         "id": 110,
         "kategori": "TKP",
         "sub_kategori": "Sosial Budaya",
-        "soal": "[Seri Analisis Situasional 110] Kategori Sosial Budaya: Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
+        "soal": "Instansi Anda menerima kunjungan delegasi internasional yang memiliki tata cara makan dan komunikasi yang sangat sakral serta berbeda dengan budaya tim lokal. Sikap proaktif Anda adalah...",
         "pilihan": {
             "A": "Meminta delegasi tersebut mengikuti sepenuhnya budaya lokal tempat mereka berkunjung.",
             "B": "Mempelajari protokol budaya delegasi tersebut sebelumnya untuk menyusun penyambutan yang inklusif dan penuh rasa hormat.",
