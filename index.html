@@ -81,7 +81,7 @@
                     <h3 class="text-xl font-bold text-slate-900 mb-2">Paket B</h3>
                     <p class="text-slate-500 text-sm mb-4">Soal simulasi gelombang kedua. Berkas database masih dalam tahap sinkronisasi data.</p>
                 </div>
-                <button disabled class="w-full bg-slate-200 text-slate-400 font-medium py-2 rounded-xl cursor-not-allowed">Terkunci</button>
+                <button onclick="mulaiUjian('paket_b')" class="w-full bg-blue-200 text-white font-medium py-2 rounded-xl transition shadow-md">Terkunci</button>
             </div>
 
             <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200 opacity-60 flex flex-col justify-between">
@@ -208,6 +208,12 @@
 
         async function mulaiUjian(paket) {
             paketTerpilih = paket;
+            
+            // 🌟 KUNCI PERBAIKAN 1: Reset semua state ujian agar data Paket A tidak mengontaminasi Paket B
+            indexAktif = 0;
+            jawabanUser = {}; // Kosongkan riwayat jawaban user sebelumnya
+            statusRagu = {};  // Kosongkan riwayat tanda ragu-ragu sebelumnya
+            
             try {
                 // 2. MODIFIKASI: Arahkan fetch ke dalam folder 'json/'
                 fileJsonAktif = `json/soal_${paket}.json`;
@@ -229,6 +235,11 @@
             }
         }
         function mulaiTimer() {
+            // 🌟 KUNCI PERBAIKAN 2: Hentikan timer yang lama jika sebelumnya sudah ada yang berjalan
+            if (typeof hitunganMundur !== 'undefined') {
+                clearInterval(hitunganMundur);
+             }
+            
             hitunganMundur = setInterval(() => {
                 if(sisaWaktu <= 0) {
                     clearInterval(hitunganMundur);
