@@ -203,26 +203,31 @@
             document.getElementById('screen-login').classList.remove('hidden');
         }
 
+        // 1. BUAT VARIABEL GLOBAL DI ATAS (Jika belum ada di bagian atas kodemu)
+        let fileJsonAktif = ""; 
+
         async function mulaiUjian(paket) {
             paketTerpilih = paket;
             try {
-                // Memanggil file JSON lokal berdasarkan nama paket
-                const response = await fetch(`soal_${paket}.json`);
+                // 2. MODIFIKASI: Arahkan fetch ke dalam folder 'json/'
+                fileJsonAktif = `json/soal_${paket}.json`;
+                const response = await fetch(fileJsonAktif);
+        
                 if(!response.ok) throw new Error("Gagal memuat berkas JSON.");
                 listSoal = await response.json();
-                
+        
                 document.getElementById('screen-dashboard').classList.add('hidden');
                 document.getElementById('screen-ujian').classList.remove('hidden');
-                
+        
                 initNavigasiGrid();
                 renderSoal();
                 mulaiTimer();
             } catch (err) {
-                alert("Kesalahan Sistem: Berkas database 'soal_paket_a.json' tidak ditemukan di folder yang sama.");
+                // 3. MODIFIKASI: Buat pesan error menjadi dinamis sesuai file yang gagal dimuat
+                alert(`Kesalahan Sistem: Berkas database '${fileJsonAktif}' tidak ditemukan.`);
                 console.error(err);
             }
         }
-
         function mulaiTimer() {
             hitunganMundur = setInterval(() => {
                 if(sisaWaktu <= 0) {
