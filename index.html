@@ -11,6 +11,16 @@
     
     <script src="https://cdn.tailwindcss.com"></script>
     
+    <script>
+        window.MathJax = {
+          tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],
+            displayMath: [['$$', '$$'], ['\\[', '\\]']]
+          }
+        };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
     <style>
         body { font-family: 'Inter', sans-serif; }
         /* Kustomisasi scrollbar untuk nomor navigasi */
@@ -308,6 +318,11 @@
             document.getElementById('btn-next').innerText = indexAktif === listSoal.length - 1 ? "Selesai" : "Selanjutnya";
             
             updateNavigasiStatus();
+
+            // FUNGSI RENDER SOAL MathJax
+            if (window.MathJax && MathJax.typeset) {
+                MathJax.typeset();
+            }
         }
 
         function pilihJawaban(kunci) {
