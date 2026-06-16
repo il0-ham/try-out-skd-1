@@ -273,6 +273,12 @@
 
         function renderSoal() {
             const soal = listSoal[indexAktif];
+    
+            // 💡 TRICK AMAN: Jika properti gambar tidak ada (undefined) di JSON, paksa jadi string kosong
+            if (soal.gambar === undefined) {
+                soal.gambar = "";
+            }
+
             document.getElementById('current-number-display').innerText = indexAktif + 1;
             document.getElementById('soal-kategori').innerText = soal.kategori;
             document.getElementById('soal-sub-kategori').innerText = soal.sub_kategori;
@@ -282,21 +288,26 @@
             const wrapperGambar = document.getElementById('wrapper-gambar-soal');
             const imgElemen = document.getElementById('gambar-soal');
 
-            if (soal.gambar && soal.gambar.trim() !== "") {
-            // 💡 OTOMATISASI: Deteksi paket berdasarkan file JSON yang sedang aktif
-            // Jika file json yang aktif adalah 'json/soal_paket_b.json', 
-            // maka variabel folderPaket akan otomatis berisi teks 'paket_b'
-            let folderPaket = 'paket_a'; // Default jika tidak terdeteksi
-    
-            if (fileJsonAktif.includes('paket_b')) {
-                folderPaket = 'paket_b';
-            } else if (fileJsonAktif.includes('paket_c')) {
-                folderPaket = 'paket_c';
+            // 🌟 KUNCI PERBAIKAN: Selalu reset src dan sembunyikan wrapper di setiap perpindahan soal
+            if (imgElemen && wrapperGambar) {
+                imgElemen.src = ""; // Mengosongkan gambar lama agar tidak nyangkut
+                 wrapperGambar.classList.add('hidden'); // Sembunyikan kontainer gambar terlebih dahulu
             }
 
-            // Gabungkan menjadi: img/paket_b/nama_gambar.png
-            imgElemen.src = `img/${folderPaket}/${soal.gambar}`; 
-            wrapperGambar.classList.remove('hidden');
+            // Jalankan pengecekan, jika soal saat ini terdeteksi memiliki gambar, baru kita tampilkan kembali
+            if (soal.gambar && soal.gambar.trim() !== "") {
+                // 💡 OTOMATISASI: Deteksi paket berdasarkan file JSON yang sedang aktif
+                let folderPaket = 'paket_a'; // Default jika tidak terdeteksi
+        
+                if (fileJsonAktif.includes('paket_b')) {
+                    folderPaket = 'paket_b';
+                } else if (fileJsonAktif.includes('paket_c')) {
+                    folderPaket = 'paket_c';
+                }
+
+                // Gabungkan menjadi: img/paket_b/nama_gambar.png
+                imgElemen.src = `img/${folderPaket}/${soal.gambar}`; 
+                wrapperGambar.classList.remove('hidden'); // Munculkan kembali kontainernya karena ada gambar
             }
 
             // --- PROSES RENDER OPSI JAWABAN (MENDUKUNG TEKS & GAMBAR) ---
